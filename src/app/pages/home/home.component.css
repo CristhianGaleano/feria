@@ -1,0 +1,21 @@
+.bot{
+    left: 10%;
+    top: 50%;
+    width: 30%;
+    z-index: 2;
+}
+
+.link{
+    right: 10.2%;
+    bottom: 11%;
+    width: 15.5%;
+    height: 12%;
+    z-index: 2;
+}
+
+.link2{
+    right: 10.2%;
+    bottom: 11%;
+    z-index: 5;
+    font-size: 30px;
+}

@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <swiper [config]="gallerythumbs">
+				<div class="swiper-wrapper">
+				    <div class="swiper-slide mx-1" *ngFor="let foto of fotos">
+				    	<div class="row">
+				    		<div class="col-12 text-center">
+								<img class="img-fluid" src="{{foto.url}}" alt="item graduados virtual">
+							</div>
+				    	</div>
+				    </div>
+				</div>
+				<!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+            <div class="swiper-button-next font-weight-bold" style="color: white;"></div>
+            <div class="swiper-button-prev font-weight-bold" style="color: white;"></div>
+			</swiper>
+        </div>
+    </div>
+</div>

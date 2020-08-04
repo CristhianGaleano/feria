@@ -1,0 +1,27 @@
+.menuUno ul{
+    list-style-type:none;
+}
+
+li{
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+    background: #ffffff66;
+    margin-top: 10px;
+    box-shadow: 10px 5px 5px #00000080;
+}
+
+.menuUno{
+    left: 0%;
+    top: 25%;
+    z-index: 2;
+}
+
+a{
+    text-decoration: none;
+    color: #264067;
+}
+
+a:hover{
+    font-weight: bolder;
+}

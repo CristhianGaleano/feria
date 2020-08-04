@@ -1,0 +1,22 @@
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="col-12">
+            <swiper [config]="gallerythumbs">
+				<div class="swiper-wrapper">
+				    <div class="swiper-slide mx-1" *ngFor="let video of videos">
+				    	<div class="row h-100">
+				    		<div class="col-12 text-center">
+								<iframe width='100%' height='100%' [src]="video.iframe | safeInsertion: 'resourceUrl'" frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+							</div>
+				    	</div>
+				    </div>
+				</div>
+				<!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+            <div class="swiper-button-next font-weight-bold" style="color: #fff;"></div>
+            <div class="swiper-button-prev font-weight-bold" style="color: #fff;"></div>
+			</swiper>
+        </div>
+    </div>
+</div>

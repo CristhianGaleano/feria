@@ -1,0 +1,21 @@
+<div class="container w-100 mw-100 h-100">
+  <div class="row px-0 h-100">
+    <div class="col-12 px-0 h-100">
+      <img src="./assets/img/pregrado/psicologia/psicologia.png" class="img-fluid h-100 mh-100" alt="fondo expo virtual ucp">
+      <a [routerLink]="['/mapa-expo']" title="Home" class="homeStand absoluto" >
+        <img src="./assets/img/general/home.png" class="box-animated img-fluid" alt="home expo virtual ucp">
+      </a>
+      <img src="./assets/img/general/play.png" class="play absoluto" alt="play expo virtual ucp" id="play">
+      <a (click)="openVideos()" title="Videos" class="video absoluto" style="cursor: pointer;" (mouseenter)="play(true)" (mouseleave)="play(false)"></a>
+      <a (click)="openGaleria()" title="Galeria" class="fotosStand absoluto box-animated" style="cursor: pointer;">
+        <img src="./assets/img/general/fotos.png" alt="fotos expo virtual ucp" class="img-fluid">
+      </a>
+      <a href="https://www.ucp.edu.co/internacionalizacion/" class="mundo absoluto" target="_blank" rel="noopener noreferrer" title="Internacionalizacion">
+        <img src="./assets/img/general/mundo.png" alt="mundo expo virtual ucp" class="img-fluid box-animated">
+      </a>
+      <a href="https://www.ucp.edu.co/pregrado/psicologia/" class="folletos absoluto" target="_blank" rel="noopener noreferrer" title="Más información">
+        <img src="./assets/img/general/folletos.png" alt="folletos expo virtual ucp" class="img-fluid box-animated">
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,265 @@
+.mapa{
+    left: 4.4%;
+    top: 40.5%;
+    width: 9%;
+    height: 15.5%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.diIndustrial{
+    left: 10.6%;
+    top: 25%;
+    width: 7.5%;
+    height: 11.5%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.arqquitec{
+    left: 13%;
+    top: 37%;
+    width: 8%;
+    height: 12%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.psicologia{
+    left: 18.6%;
+    top: 21%;
+    width: 7.5%;
+    height: 11.5%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.comSocio{
+    left: 22%;
+    top: 32.5%;
+    width: 7.5%;
+    height: 12.5%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.adminEmpresa{
+    left: 26.5%;
+    top: 17.5%;
+    width: 7%;
+    height: 12.5%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.mercadeo{
+    left: 30%;
+    top: 28.5%;
+    width: 7%;
+    height: 12.5%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.gesMerc{
+    left: 34%;
+    top: 14.5%;
+    width: 6.5%;
+    height: 12%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.negInternacionales{
+    left: 37.5%;
+    top: 24.5%;
+    width: 7%;
+    height: 12%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.ingIndust{
+    left: 41%;
+    top: 11.5%;
+    width: 7%;
+    height: 11%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.ingSistem{
+    left: 45%;
+    top: 21.5%;
+    width: 7.5%;
+    height: 12%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.espArqui{
+    left: 17%;
+    bottom: 26%;
+    width: 9.5%;
+    height: 16%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+.galeria{
+    right: 30%;
+    top: 8%;
+    width: 7%;
+}
+
+.yt{
+    right: 35%;
+    top: 18%;
+    width: 6%;
+}
+.wp{
+    right: 39%;
+    top: 8%;
+    width: 6%;
+}
+
+.arqDiseno{
+    left: 8.5%;
+    top: 21%;
+    width: 54%;
+}
+
+.cienHumanas{
+    left: 17.5%;
+    top: 19%;
+    width: 59%;
+}
+
+.cienBasicas{
+    right: 4.5%;
+    top: 11%;
+    width: 55%;
+}
+
+.cienEconomicas{
+    right: 7.5%;
+    top: 11%;
+    width: 68%;
+}
+
+.tituloPop{
+    width: 10%;
+}
+
+.xp{
+    left: 7.2%;
+    top: 28.5%;
+    width: 15%;
+}
+
+.diIndu{
+    left: 14.2%;
+    top: 14.5%;
+    z-index: 3;
+}
+
+.psico{
+    left: 22%;
+    top: 10.5%;
+    z-index: 3;
+}
+
+.arqui{
+    left: 16.2%;
+    top: 27.5%;
+    z-index: 3;
+}
+
+.com-soci{
+    left: 25%;
+    top: 23%;
+    z-index: 3;
+    width: 11%;
+}
+
+.admin{
+    left: 29%;
+    top: 7%;
+    z-index: 3;
+}
+
+.merca{
+    left: 33%;
+    top: 19%;
+    z-index: 3;
+}
+
+.gesMercadeo{
+    left: 37%;
+    top: 2%;
+    z-index: 3;
+    width: 14%;
+}
+
+.negInt{
+    left: 41%;
+    top: 15%;
+    z-index: 3;
+    width: 11%;
+}
+
+.indust{
+    left: 43%;
+    top: 1%;
+    z-index: 3;
+}
+
+.sistem{
+    left: 48%;
+    top: 9%;
+    z-index: 3;
+    width: 15%;
+}
+
+.arquiEsp{
+    left: 21%;
+    bottom: 35%;
+    z-index: 3;
+    width: 15%;
+}

@@ -1,0 +1,18 @@
+.redes ul{
+    list-style-type:none;
+}
+
+li{
+    padding-top: 5px;
+    text-align: center;
+}
+
+.redes{
+    right: 3%;
+    top: 25%;
+    z-index: 2;
+}
+
+.redes img{
+    width: 35px;
+}
