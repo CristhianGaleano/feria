@@ -50,6 +50,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     z-index: 5;
 }
 
+.wrappersvglogo img {
+    position: absolute;
+    width: 20%;
+    top: 1%;
+    right: 3%;
+}
+
 .play{
     left: 35%;
     top: 46.5%;

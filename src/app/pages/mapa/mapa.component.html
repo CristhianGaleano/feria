@@ -1,75 +1,117 @@
 <div class="container w-100 mw-100 h-100">
   <div class="row px-0 h-100">
     <div class="col-12 px-0 h-100">
-      <img src="./assets/img/mapa/fondo.png" class="img-fluid h-100 mh-100" alt="fondo expo virtual ucp">
-
+      <img src="./assets/img/mapa/fondo-uno.png" class="img-fluid h-100 mh-100" alt="fondo expo virtual ucp">
+      <!-- <img src="./assets/img/mapa/fondo.png" class="img-fluid h-100 mh-100" alt="fondo expo virtual ucp"> -->
+      <div class="wrappersvglogo">
+        <img src="./assets/img/general/logou.svg" class="" alt="Universidad Católica de Pereira" id="logosvg">
+      </div>
       <!-- Acciones -->
-      <a [routerLink]="['/experiencia-unica']" title="Home" class="home absoluto" >
+      <a [routerLink]="['/experiencia-unica']" title="Home" class="home absoluto">
         <img src="./assets/img/general/home.png" class="box-animated img-fluid" alt="home expo virtual ucp">
       </a>
-      <a  title="Galeria" class="galeria absoluto" style="cursor: pointer;" (click)="openGaleria()">
+      <a title="Galeria" class="galeria absoluto" style="cursor: pointer;" (click)="openGaleria()">
         <img src="./assets/img/mapa/home-g.png" class="box-animated img-fluid" alt="galeria expo virtual ucp">
       </a>
-      <a href="https://www.youtube.com/user/CanalUCP" target="_blank" rel="noopener noreferrer" title="Youtube" class="yt absoluto">
+      <a href="https://www.youtube.com/user/CanalUCP" target="_blank" rel="noopener noreferrer" title="Youtube"
+        class="yt absoluto">
         <img src="./assets/img/mapa/home-yt.png" class="box-animated img-fluid" alt="galeria expo virtual ucp">
       </a>
-      <a href="https://api.whatsapp.com/send?phone=573013877446" target="_blank" rel="noopener noreferrer" title="Whatsapp" class="wp absoluto">
+      <a href="https://api.whatsapp.com/send?phone=573013877446" target="_blank" rel="noopener noreferrer"
+        title="Whatsapp" class="wp absoluto">
         <img src="./assets/img/mapa/home-wp.png" class="box-animated img-fluid" alt="galeria expo virtual ucp">
       </a>
 
       <!-- Esperiencia Unica -->
-      <a [routerLink]="['/experiencia-unica']" class="mapa absoluto" (mouseenter)="facultad('xp', false)" (mouseleave)="facultad('xp', true)"></a>
-      <img src="./assets/img/mapa/titulos/xp.png" class="tituloPop xp absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="xp">
+      <a [routerLink]="['/experiencia-unica']" class="mapa absoluto" (mouseenter)="facultad('xp', false)"
+        (mouseleave)="facultad('xp', true)"></a>
+      <img src="./assets/img/mapa/titulos/xp.png" class="tituloPop xp absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="xp">
 
       <!-- Diseño Industrial -->
-      <a [routerLink]="['/pregrado/diseno-industrial']" class="diIndustrial absoluto" (mouseenter)="facultad('diIndu', false, 'arqDiseno')" (mouseleave)="facultad('diIndu', true, 'arqDiseno')"></a>
-      <img src="./assets/img/mapa/titulos/diseno-industrial.png" class="tituloPop diIndu absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="diIndu">
+      <a [routerLink]="['/pregrado/diseno-industrial']" class="diIndustrial absoluto"
+        (mouseenter)="facultad('diIndu', false, 'arqDiseno')" (mouseleave)="facultad('diIndu', true, 'arqDiseno')"></a>
+      <img src="./assets/img/mapa/titulos/diseno-industrial.png" class="tituloPop diIndu absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="diIndu">
 
       <!-- Arquitectura -->
-      <a [routerLink]="['/pregrado/arquitectura']" class="arqquitec absoluto" (mouseenter)="facultad('arqui', false, 'arqDiseno')" (mouseleave)="facultad('arqui', true, 'arqDiseno')"></a>
-      <img src="./assets/img/mapa/titulos/arquitectura.png" class="tituloPop arqui absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="arqui">
+      <a [routerLink]="['/pregrado/arquitectura']" class="arqquitec absoluto"
+        (mouseenter)="facultad('arqui', false, 'arqDiseno')" (mouseleave)="facultad('arqui', true, 'arqDiseno')"></a>
+      <img src="./assets/img/mapa/titulos/arquitectura.png" class="tituloPop arqui absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="arqui">
 
       <!-- Psicologia -->
-      <a [routerLink]="['/pregrado/psicologia']" class="psicologia absoluto" (mouseenter)="facultad('psico', false, 'cienHumanas')" (mouseleave)="facultad('psico', true, 'cienHumanas')"></a>
-      <img src="./assets/img/mapa/titulos/psicologia.png" class="tituloPop psico absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="psico">
+      <a [routerLink]="['/pregrado/psicologia']" class="psicologia absoluto"
+        (mouseenter)="facultad('psico', false, 'cienHumanas')"
+        (mouseleave)="facultad('psico', true, 'cienHumanas')"></a>
+      <img src="./assets/img/mapa/titulos/psicologia.png" class="tituloPop psico absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="psico">
 
       <!-- Comunicacion Social -->
-      <a [routerLink]="['/pregrado/comunicacion-social-periodismo']" class="comSocio absoluto" (mouseenter)="facultad('com-soci', false, 'cienHumanas')" (mouseleave)="facultad('com-soci', true, 'cienHumanas')"></a>
-      <img src="./assets/img/mapa/titulos/com-social.png" class="tituloPop com-soci absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="com-soci">
+      <a [routerLink]="['/pregrado/comunicacion-social-periodismo']" class="comSocio absoluto"
+        (mouseenter)="facultad('com-soci', false, 'cienHumanas')"
+        (mouseleave)="facultad('com-soci', true, 'cienHumanas')"></a>
+      <img src="./assets/img/mapa/titulos/com-social.png" class="tituloPop com-soci absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="com-soci">
 
       <!-- Administracion de Empresas -->
-      <a [routerLink]="['/pregrado/administracion-empresa']" class="adminEmpresa absoluto" (mouseenter)="facultad('admin', false, 'cienEconomicas')" (mouseleave)="facultad('admin', true, 'cienEconomicas')"></a>
-      <img src="./assets/img/mapa/titulos/admi.png" class="tituloPop admin absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="admin">
+      <a [routerLink]="['/pregrado/administracion-empresa']" class="adminEmpresa absoluto"
+        (mouseenter)="facultad('admin', false, 'cienEconomicas')"
+        (mouseleave)="facultad('admin', true, 'cienEconomicas')"></a>
+      <img src="./assets/img/mapa/titulos/admi.png" class="tituloPop admin absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="admin">
 
       <!-- Mercadeo -->
-      <a [routerLink]="['/pregrado/mercadeo']" class="mercadeo absoluto" (mouseenter)="facultad('merca', false, 'cienEconomicas')" (mouseleave)="facultad('merca', true, 'cienEconomicas')"></a>
-      <img src="./assets/img/mapa/titulos/mercadeo.png" class="tituloPop merca absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="merca">
+      <a [routerLink]="['/pregrado/mercadeo']" class="mercadeo absoluto"
+        (mouseenter)="facultad('merca', false, 'cienEconomicas')"
+        (mouseleave)="facultad('merca', true, 'cienEconomicas')"></a>
+      <img src="./assets/img/mapa/titulos/mercadeo.png" class="tituloPop merca absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="merca">
 
       <!-- Tecg Gestion Mercadeo -->
-      <a [routerLink]="['/pregrado/tecnologia-mercadeo']" class="gesMerc absoluto" (mouseenter)="facultad('gesMercadeo', false, 'cienEconomicas')" (mouseleave)="facultad('gesMercadeo', true, 'cienEconomicas')"></a>
-      <img src="./assets/img/mapa/titulos/tec-mercadeo.png" class="tituloPop gesMercadeo absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="gesMercadeo">
+      <a [routerLink]="['/pregrado/tecnologia-mercadeo']" class="gesMerc absoluto"
+        (mouseenter)="facultad('gesMercadeo', false, 'cienEconomicas')"
+        (mouseleave)="facultad('gesMercadeo', true, 'cienEconomicas')"></a>
+      <img src="./assets/img/mapa/titulos/tec-mercadeo.png" class="tituloPop gesMercadeo absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="gesMercadeo">
 
       <!-- Negocios Internacionales -->
-      <a [routerLink]="['/pregrado/negocios-internacionales']" class="negInternacionales absoluto" (mouseenter)="facultad('negInt', false, 'cienEconomicas')" (mouseleave)="facultad('negInt', true, 'cienEconomicas')"></a>
-      <img src="./assets/img/mapa/titulos/neg-interna.png" class="tituloPop negInt absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="negInt">
+      <a [routerLink]="['/pregrado/negocios-internacionales']" class="negInternacionales absoluto"
+        (mouseenter)="facultad('negInt', false, 'cienEconomicas')"
+        (mouseleave)="facultad('negInt', true, 'cienEconomicas')"></a>
+      <img src="./assets/img/mapa/titulos/neg-interna.png" class="tituloPop negInt absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="negInt">
 
       <!-- Ing Industrial -->
-      <a [routerLink]="['/pregrado/ingenieria-industrial']" class="ingIndust absoluto" (mouseenter)="facultad('indust', false, 'cienBasicas')" (mouseleave)="facultad('indust', true, 'cienBasicas')"></a>
-      <img src="./assets/img/mapa/titulos/ing-industrial.png" class="tituloPop indust absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="indust">
+      <a [routerLink]="['/pregrado/ingenieria-industrial']" class="ingIndust absoluto"
+        (mouseenter)="facultad('indust', false, 'cienBasicas')"
+        (mouseleave)="facultad('indust', true, 'cienBasicas')"></a>
+      <img src="./assets/img/mapa/titulos/ing-industrial.png" class="tituloPop indust absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="indust">
 
       <!-- Ing Sistemas -->
-      <a [routerLink]="['/pregrado/ingenieria-sistemas-telecomunicaciones']" class="ingSistem absoluto" (mouseenter)="facultad('sistem', false, 'cienBasicas')" (mouseleave)="facultad('sistem', true, 'cienBasicas')"></a>
-      <img src="./assets/img/mapa/titulos/ing-sistemas.png" class="tituloPop sistem absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="sistem">
+      <a [routerLink]="['/pregrado/ingenieria-sistemas-telecomunicaciones']" class="ingSistem absoluto"
+        (mouseenter)="facultad('sistem', false, 'cienBasicas')"
+        (mouseleave)="facultad('sistem', true, 'cienBasicas')"></a>
+      <img src="./assets/img/mapa/titulos/ing-sistemas.png" class="tituloPop sistem absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="sistem">
 
       <!-- Esp Aquitectura -->
-      <a [routerLink]="['/posgrado/maestria-arquitectura-urbanismo']" class="espArqui absoluto" (mouseenter)="facultad('arquiEsp', false, 'arqDiseno')" (mouseleave)="facultad('arquiEsp', true, 'arqDiseno')"></a>
-      <img src="./assets/img/mapa/titulos/mag-arq-urb.png" class="tituloPop arquiEsp absoluto" [hidden]="true" alt="fondo expo virtual ucp" id="arquiEsp">
+      <a [routerLink]="['/posgrado/maestria-arquitectura-urbanismo']" class="espArqui absoluto"
+        (mouseenter)="facultad('arquiEsp', false, 'arqDiseno')"
+        (mouseleave)="facultad('arquiEsp', true, 'arqDiseno')"></a>
+      <img src="./assets/img/mapa/titulos/mag-arq-urb.png" class="tituloPop arquiEsp absoluto" [hidden]="true"
+        alt="fondo expo virtual ucp" id="arquiEsp">
 
       <!-- Facultades -->
-      <img src="./assets/img/mapa/arq-diseno.png" class="arqDiseno absoluto" [hidden]="true" alt="arqDiseno expo virtual ucp" id="arqDiseno">
-      <img src="./assets/img/mapa/cien-humanas.png" class="cienHumanas absoluto" [hidden]="true" alt="cienHumanas expo virtual ucp" id="cienHumanas">
-      <img src="./assets/img/mapa/cien-basicas.png" class="cienBasicas absoluto" [hidden]="true" alt="cienBasicas expo virtual ucp" id="cienBasicas">
-      <img src="./assets/img/mapa/cien-economicas.png" class="cienEconomicas absoluto" [hidden]="true" alt="cienEconomicas expo virtual ucp" id="cienEconomicas">
+      <img src="./assets/img/mapa/arq-diseno.png" class="arqDiseno absoluto" [hidden]="true"
+        alt="arqDiseno expo virtual ucp" id="arqDiseno">
+      <img src="./assets/img/mapa/cien-humanas.png" class="cienHumanas absoluto" [hidden]="true"
+        alt="cienHumanas expo virtual ucp" id="cienHumanas">
+      <img src="./assets/img/mapa/cien-basicas.png" class="cienBasicas absoluto" [hidden]="true"
+        alt="cienBasicas expo virtual ucp" id="cienBasicas">
+      <img src="./assets/img/mapa/cien-economicas.png" class="cienEconomicas absoluto" [hidden]="true"
+        alt="cienEconomicas expo virtual ucp" id="cienEconomicas">
     </div>
   </div>
 </div>
