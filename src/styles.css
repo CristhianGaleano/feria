@@ -56,6 +56,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     top: 39%;
     left: 26%;
     /* height: 288px; */
+    transform: rotateY(-402deg);
 }
 .playgif img {
     width: 100%;
