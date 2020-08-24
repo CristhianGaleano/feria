@@ -81,9 +81,38 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     width: 7%;
 }
 
+.rotate {
+    -webkit-animation: rotate 5s linear infinite 0s;
+    -moz-animation: rotateup 5s linear infinite 0s;
+    -o-animation: rotate 5s linear infinite 0s;
+    -ms-animation: rotate 5s linear infinite 0s;
+    animation: rotate 5s linear infinite 0s;
+}
+
+
+@-webkit-keyframes rotate {
+    from {
+       -webkit-transform: rotatey(180deg);
+     }
+     to {
+       -webkit-transform: rotateY(360deg);
+     }
+   
+   }
+
+   @-moz-keyframes rotate {
+    from {
+        -moz-transform: rotateY(180deg);
+     }
+     to {
+        -moz-transform: rotateY(360deg);
+     }
+   
+   }
+
 .folletos{
     left: 53.8%;
-    top: 53%;
+    top: 58%;
     z-index: 2;
     width: 7.5%;
     text-align: center;
