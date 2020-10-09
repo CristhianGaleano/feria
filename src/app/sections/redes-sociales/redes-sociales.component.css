@@ -3,12 +3,12 @@
 }
 
 li{
-    padding-top: 5px;
+    padding-top: 12px;
     text-align: center;
 }
 
 .redes{
-    right: 3%;
+    right: 6%;
     top: 25%;
     z-index: 2;
 }
