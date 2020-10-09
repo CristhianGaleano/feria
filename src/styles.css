@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(tooltip.css);
+
+
 body{
     background: #a9a19c;
 }
@@ -30,14 +33,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .fotos{
     width: 8%;
-    left: 6%;
-    top: 8%;
+    left: 8.9%;
+    top: 62%;
     z-index: 5;
 }
 
 .fotosStand{
     width: 8%;
-    left: 6%;
+    left:6 %;
     top: 30%;
     z-index: 5;
 }
@@ -63,9 +66,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 .wrappersvglogo img {
     position: absolute;
-    width: 20%;
-    top: 1%;
-    right: 3%;
+    width: 13%;
+    top: 6%;
+    left: 6.3%;
 }
 
 .play{
@@ -75,10 +78,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .mundo{
-    left: 42.5%;
-    top: 55%;
+    left: 37.5%;
+    top: 55.5%;
     z-index: 2;
     width: 7%;
+}
+
+.mundo img{
+
+    width: 76%;
+
 }
 
 .rotate {
@@ -111,13 +120,32 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
    }
 
 .folletos{
+
     left: 53.8%;
     top: 58%;
     z-index: 2;
     width: 7.5%;
     text-align: center;
-color: #237eaa;
-font-weight: 900;
+    color: #237eaa;
+    font-weight: 900;
+
+}
+
+.laptop {
+
+    left: 53.5%;
+    top: 58.5%;
+    z-index: 2;
+    width: 7.3%;
+    padding: 0%;
+
+}
+
+.laptop img{
+
+    width: 100%;
+    
+    
 }
 
 swiper{
