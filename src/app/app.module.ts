@@ -1,6 +1,8 @@
+
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { routing, appRoutingProviders } from './app.routing';
+
 
 import {MatDialogModule} from '@angular/material/dialog';
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
@@ -106,7 +108,9 @@ import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/esp
     BrowserAnimationsModule,
     MatDialogModule,
     NgxUsefulSwiperModule
+    
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   exports: [MatDialogModule, NgxUsefulSwiperModule],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]

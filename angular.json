@@ -31,7 +31,12 @@
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "./node_modules/aframe/dist/aframe.min.js",
+              "./node_modules/aframe-template-component/dist/aframe-template-component.min.js",
+              "./node_modules/aframe-event-set-component/dist/aframe-event-set-component.min.js",
+              "./node_modules/aframe-layout-component/dist/aframe-layout-component.min.js",
+              "./node_modules/aframe-proxy-controls/dist/aframe-proxy-controls.min.js"
             ],
             "es5BrowserSupport": true
           },

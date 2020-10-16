@@ -14,23 +14,23 @@ export class HomeComponent implements OnInit {
 
   constructor(private titleService: Title, private _router: Router) {
     $( ".liveChatWidget" ).remove();
-    this.redireccionar();
+    // this.redireccionar();
   }
 
   ngOnInit() {
     this.titleService.setTitle("Expo Virtual - UCP");
   }
 
-  redireccionar(){
-    let cont = 0;
-    let _this = this
-    let timevideo = setInterval(function() {
-      cont++;
-      if(cont >= 98){
-        clearInterval(timevideo);
-        _this._router.navigate(['/experiencia-unica/']);
-      }
-    }, 1000);
-  }
+  // redireccionar(){
+  //   let cont = 0;
+  //   let _this = this
+  //   let timevideo = setInterval(function() {
+  //     cont++;
+  //     if(cont >= 98){
+  //       clearInterval(timevideo);
+  //       _this._router.navigate(['/experiencia-unica/']);
+  //     }
+  //   }, 1000);
+  // }
 
 }
