@@ -1,3 +1,5 @@
+
+
 .menuStand ul{
     list-style-type:none;
 }
@@ -5,23 +7,36 @@
 li{
     padding: 5px;
     text-align: center;
-    width: 80%;
-    background: #ffffff66;
+    width: 100%;
+    background: white;
     margin-top: 10px;
-    box-shadow: 10px 5px 5px #00000080;
+    /*box-shadow: 10px 5px 5px #00000080;*/
+    /*border: 1px solid red;*/
+    border-radius: 4px;
+}
+
+li:hover{
+
+    background-color: lightgray;
+    transition: 0.3s;
+
 }
 
 .menuStand{
-    left: 0%;
-    top: 44%;
+    left: 2.5%;
+    top: 34.5%;
     z-index: 2;
 }
 
 a{
     text-decoration: none;
     color: #264067;
+    font-size: calc(0.41em + 0.41vw);
 }
 
-a:hover{
-    font-weight: bolder;
+.menuStand span {
+
+    font-size: calc(0.88em + 0.88vw);
+    vertical-align: middle;
+
 }

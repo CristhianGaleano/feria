@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url(tooltip.css);
+@import url(./fontello-1ca9c8cc/css/fontello.css);
 
 
 body{
@@ -33,15 +33,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .fotos{
     width: 8%;
-    left: 8.9%;
+    left: 7.6%;
     top: 62%;
     z-index: 5;
 }
 
 .fotosStand{
     width: 8%;
-    left:6 %;
-    top: 30%;
+    left: 6.5%;
+    top: 70%;
     z-index: 5;
 }
 
@@ -57,18 +57,18 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     position: absolute;
     width: 20%;
     top: 39%;
-    left: 26%;
+    left: 28%;
     /* height: 288px; */
-    transform: rotateY(-402deg);
+    /* transform: rotateY(-202deg); */
 }
 .playgif img {
-    width: 100%;
+    width: 75%;
 }
 .wrappersvglogo img {
     position: absolute;
     width: 13%;
-    top: 6%;
-    left: 6.3%;
+    top: 7.5%;
+    left: 4.3%;
 }
 
 .play{
@@ -78,15 +78,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .mundo{
-    left: 37.5%;
-    top: 55.5%;
+    left: 36%;
+    top: 56.2%;
     z-index: 2;
     width: 7%;
 }
 
 .mundo img{
 
-    width: 76%;
+    width: 74%;
 
 }
 
@@ -133,10 +133,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .laptop {
 
-    left: 53.5%;
-    top: 58.5%;
+    left: 52%;
+    top: 58.1%;
     z-index: 2;
-    width: 7.3%;
+    width: 7.6%;
     padding: 0%;
 
 }
@@ -159,16 +159,39 @@ swiper{
 }
 
 .home{
-    left: 4%;
-    top: 8%;
-    width: 5%;
+    left: 4.5%;
+    top: 23.3%;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    font-size: calc(0.98em + 0.98vw);
+    border-radius: 50%;
+    padding: 0.2% 0.5% 0.5% 0.5%;
+    color: #264067;
 }
 
 .homeStand{
-    left: 7%;
-    top: 8%;
-    width: 5%;
+    left: 8.9%;
+    top: 23.3%;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    font-size: calc(0.98em + 0.98vw);
+    border-radius: 50%;
+    padding: 0.2% 0.5% 0.5% 0.5%;
+    color: #264067;
+    
 }
+
+.homeStand:hover{
+  
+    background-color: lightgray;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+
 
 
 
@@ -189,7 +212,7 @@ swiper{
     position: absolute;
     padding: 3px 20px;
     bottom: -1.6em;
-    left: 100%;
+    left: 10%;
     white-space: nowrap;
     box-shadow: 1px 1px 3px #222222;
     opacity: 0;
