@@ -15,18 +15,28 @@ li{
     border-radius: 4px;
 }
 
+li:hover{
+
+    background-color: lightgray;
+    transition: 0.3s;
+
+}
+
 .menuStand{
-    left: 2%;
-    top: 37%;
+    left: 2.5%;
+    top: 34.5%;
     z-index: 2;
 }
 
 a{
     text-decoration: none;
     color: #264067;
-    font-size: calc(0.48em + 0.48vw);
+    font-size: calc(0.41em + 0.41vw);
 }
 
-a:hover{
-    font-weight: bolder;
+.menuStand span {
+
+    font-size: calc(0.88em + 0.88vw);
+    vertical-align: middle;
+
 }

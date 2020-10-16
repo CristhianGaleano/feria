@@ -1,7 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url(tooltip.css);
-@import url(./fontello-816471df/css/fontello.css);
-
+@import url(./fontello-1ca9c8cc/css/fontello.css);
 
 
 body{
@@ -35,15 +33,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .fotos{
     width: 8%;
-    left: 8.9%;
+    left: 7.6%;
     top: 62%;
     z-index: 5;
 }
 
 .fotosStand{
     width: 8%;
-    left: 7.8%;
-    top: 65%;
+    left: 6.5%;
+    top: 70%;
     z-index: 5;
 }
 
@@ -161,13 +159,70 @@ swiper{
 }
 
 .home{
-    left: 4%;
-    top: 8%;
-    width: 5%;
+    left: 4.5%;
+    top: 23.3%;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    font-size: calc(0.98em + 0.98vw);
+    border-radius: 50%;
+    padding: 0.2% 0.5% 0.5% 0.5%;
+    color: #264067;
 }
 
 .homeStand{
-    left: 9%;
-    top: 23%;
-    width: 5%;
+    left: 8.9%;
+    top: 23.3%;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    font-size: calc(0.98em + 0.98vw);
+    border-radius: 50%;
+    padding: 0.2% 0.5% 0.5% 0.5%;
+    color: #264067;
+    
 }
+
+.homeStand:hover{
+  
+    background-color: lightgray;
+    color: white;
+    transition: 0.3s;
+    
+}
+
+
+
+
+
+/* tooltip */
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-family: Raleway;
+    position: absolute;
+    padding: 3px 20px;
+    bottom: -1.6em;
+    left: 10%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+    
+}
+/* [data-title] {
+    position: relative;
+} */
+/* end tooltip */
