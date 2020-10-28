@@ -8,6 +8,8 @@
         <img id="verde" src="./assets/img/home/verdeucp.jpg" alt="Universidad Católica de Pereira">
         <img id="pse" src="./assets/img/home/pse.png" alt="Pagos enlínea"> -->
         <img id="pageucp" src="./assets/img/home/pageucp.png" alt="Pagos enlínea">
+        <img id="biblioteca" src="./assets/img/home/biblioteca.png" alt="Pagos enlínea">
+        <img id="dir-left" src="./assets/img/home/dir-left.png" alt="Pagos enlínea">
         <!-- recuadro -->
     <!-- <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg"> -->
     <!-- recuadro -->
@@ -28,18 +30,14 @@
   <!-- <a-entity id="linklogo" template="src: #" layout="type: line; margin: 1.5" position="1 1 -5" data-thumb="#logoucp"></a-entity> -->
 
   
-  <a-image position="0 3.7 8" link="href: https://biblioteca.ucp.edu.co/; title: Nuestra biblioteca CDCH; color: aqua;" rotation="0 0 1">
+  <a-image position="2 2.1 11" src="#dir-left" width="3" height="1.5" navigate-on-click="url: https://biblioteca.ucp.edu.co/" rotation="0 180 -3">
+  </a-image>
+  <a-image position="0 4.8 10" rotation="0 180 -2" src="#biblioteca" width="4" height="2.4" navigate-on-click="url: https://biblioteca.ucp.edu.co/" >
   </a-image>
 
   <a-image position="8 5.4 2" link="href: https://www.pagosvirtualesavvillas.com.co/personal/pagos/8282; title: Pago de inscripciones; color: green;" rotation="1 95 3"></a-image>
   <!-- <a-image height="2" position="-2 .4 -9" link="href: feriados.html; title: visita: www.ucp.edu.co; color: red; repeat: 1 2;"></a-image> -->
   
-  <!-- <a-sphere position="1 1.21 -3" radius="1.25" src="#prueba"></a-sphere> -->
-  
-  
-
-<!-- <a-image position="1 1 -1" navigate-on-click="url: https:www.ucp.edu.co" height="2"  src="#logo" ></a-image> -->
-
 
 <!-- visit web -->
   <a-image position="4.2 4 -3" width="2" src="#pageucp" navigate-on-click="url: https:www.ucp.edu.co" rotation="0 -80 0"
@@ -55,7 +53,7 @@
   </a-image>
 
   <!-- banner -->
-  <a-image position="-3 1.9 -11" src="#banner" width="5" height="2.5" depth="6" navigate-on-click="url: https://matriculas.ucp.edu.co/se/inscriptions.aspx" rotation="-45 0 2"
+  <a-image position="3 1.9 -10" rotation="0 -50 1" src="#banner" width="8" height="3.5"  navigate-on-click="url: https://matriculas.ucp.edu.co/se/inscriptions.aspx" 
   event-set__enter="_event: mouseenter; color: #cococo"  
   event-set__leave="_event: mouseleave; color: #fff">  
    <!-- This animation begins when the sphere is clicked with the mouse. -->
@@ -67,8 +65,8 @@
    begin="mouseenter"></a-animation>
   </a-image>
 
-  
-
+  <!-- button to start visit stands  -->
+  <a [routerLink]="['/experiencia-unica']" title="entrar" class="link2 absoluto btn btn-warning px-3">Entrar</a>
 
   <!-- 360-degree image. -->
   <a-sky id="image-360" radius="80" src="#fondoucp"
