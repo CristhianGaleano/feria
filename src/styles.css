@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import url(./fontello-1ca9c8cc/css/fontello.css);
+@import url(./fontello-dcac6a99/css/fontello.css);
 
 
 body{
@@ -33,16 +34,37 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .fotos{
     width: 8%;
-    left: 7.6%;
-    top: 62%;
+    left: 8.6%;
+    top: 58%;
     z-index: 5;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    font-size: calc(1.4em + 1.4vw);
+    border-radius: 50%;
+    padding: 0.2% 0.5% 0.5% 0.5%;
+    color: #264067;
 }
 
 .fotosStand{
+    
+    width: 8%;
+    left: 8.6%;
+    top: 70%;
+    z-index: 5;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    font-size: calc(1.2em + 1.2vw);
+    border-radius: 50%;
+    padding: 0.2% 0.5% 0.5% 0.5%;
+    color: #264067;
+    /*
     width: 8%;
     left: 6.5%;
     top: 70%;
     z-index: 5;
+    */
 }
 
 .video{
@@ -78,10 +100,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .mundo{
-    left: 36%;
-    top: 56.2%;
+    left: 35%;
+    top: 54.5%;
     z-index: 2;
-    width: 7%;
+    width: 11.8%;
 }
 
 .mundo img{
@@ -160,14 +182,15 @@ swiper{
 
 .home{
     left: 4.5%;
-    top: 23.3%;
+    top: 24%;
     width: fit-content;
-    background-color: white;
+    background-color: transparent;
     text-align: center;
     font-size: calc(0.98em + 0.98vw);
+    border: 2px solid white;
     border-radius: 50%;
     padding: 0.2% 0.5% 0.5% 0.5%;
-    color: #264067;
+    color: white;
 }
 
 .homeStand{
