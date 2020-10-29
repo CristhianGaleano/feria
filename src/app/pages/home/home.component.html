@@ -9,7 +9,8 @@
         <img id="pse" src="./assets/img/home/pse.png" alt="Pagos enlínea"> -->
         <img id="pageucp" src="./assets/img/home/pageucp.png" alt="Pagos enlínea">
         <img id="biblioteca" src="./assets/img/home/biblioteca.png" alt="Pagos enlínea">
-        <img id="parqueadero" src="./assets/img/entrada/parqueaderoin.JPG" alt="Pagos enlínea">
+        <img id="parqueadero" src="./assets/img/home/parqueaderowm.png" alt="Pagos enlínea">
+        <img id="play" src="./assets/img/home/play.png" alt="Pagos enlínea">
         <!-- flecha -->
         <img id="dir-left" src="./assets/img/home/dir-left.png" alt="Pagos enlínea">
         <!-- recuadro -->
@@ -20,34 +21,34 @@
     <!-- <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg"> -->
     </a-assets>
 
+
+    <a-cylinder color="#ffd500"
+                    height="2"
+                    radius="2"
+                    segments-radial="6"
+                    open-ended="true"
+                    side="double"
+                    position="-8 1.4 -10"
+                    repeat="2"
+                    src="#play"
+                    navigate-on-click="url: https://biblioteca.ucp.edu.co/"
+                    ></a-cylinder>
+
     
-
-   <!-- Image links. -->
-    <!-- <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -6">
-    <a-entity template="src: #link" data-src="#agora" data-thumb="#cubes-thumb"></a-entity>
-    <a-entity template="src: #link" data-src="#verde" data-thumb="#city-thumb"></a-entity>
-  </a-entity> -->
-
-
-  <!-- <a-entity id="linklogo" template="src: #" layout="type: line; margin: 1.5" position="1 1 -5" data-thumb="#logoucp"></a-entity> -->
-
-  
-  <!-- <a-image position="2 2.1 11" src="#dir-left" width="3" height="1.5" navigate-on-click="url: https://biblioteca.ucp.edu.co/" rotation="0 180 -3"> 
-  </a-image>-->
-  <a-image position="7.5 3.8 6" rotation="0 180 0" src="#biblioteca" width="7" height="4.4" navigate-on-click="url: https://biblioteca.ucp.edu.co/" >
+  <a-image position="-16 5.9 -5.9" rotation="0 94 1.4" src="#biblioteca" width="11" height="6.4" navigate-on-click="url: https://biblioteca.ucp.edu.co/" >
   </a-image>
   
 
 
   <!-- logo -->
-  <a-image position="5 .9 -10" rotation="0 -50 1" src="#logoucp" width="8" height="3.5" 
+  <a-image position="-9.5 1.1 10" rotation="0 125 4.9" src="#logoucp" width="9" height="3.5" 
   event-set__enter="_event: mouseenter; color: #cococo"  
   event-set__leave="_event: mouseleave; color: #fff">  
    <!-- This animation begins when the sphere is clicked with the mouse. -->
    <a-animation attribute="rotation"
    dur="2000"
    fill="forwards"
-   to="0 2.5 2.4"
+   to="0 180 2.4"
    direction="alternate"
    begin="mouseenter"></a-animation>
   </a-image>
@@ -66,7 +67,7 @@
        so that you can click entities in the scene
        with the mouse.
   -->
-  <a-entity id="camera" camera="userHeight: .2" position="0 2 0" rotation="0 -60 0" look-controls cursor="rayOrigin: mouse">
+  <a-entity id="camera" camera="userHeight: .2" position="0 2 0" rotation="0 89 0" look-controls cursor="rayOrigin: mouse">
   </a-entity>
 </a-scene>
 

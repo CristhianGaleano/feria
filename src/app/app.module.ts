@@ -1,3 +1,4 @@
+// este archivo declara los componentes que vamos a usar
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
@@ -52,6 +53,7 @@ import { EpecializacionGestionConstruccionSostenibleComponent } from './pages/po
 import { EpecializacionArquitecturaBioclimaticaComponent } from './pages/posgrado/epecializacion-arquitectura-bioclimatica/epecializacion-arquitectura-bioclimatica.component';
 import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/especializacion-desarrollo-software/especializacion-desarrollo-software.component';
 import { EntradaComponent } from './pages/entrada/entrada.component';
+import { CapillaComponent } from './pages/capilla/capilla.component';
 
 
 @NgModule({
@@ -101,7 +103,8 @@ import { EntradaComponent } from './pages/entrada/entrada.component';
     EpecializacionGestionConstruccionSostenibleComponent,
     EpecializacionArquitecturaBioclimaticaComponent,
     EspecializacionDesarrolloSoftwareComponent,
-    EntradaComponent
+    EntradaComponent,
+    CapillaComponent
   ],
   entryComponents: [CarouselVideosComponent, CarouselFotosComponent, PromoComponent, formStands],
   imports: [
