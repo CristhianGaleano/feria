@@ -1,11 +1,73 @@
-<div class="container w-100 mw-100 h-100">
-  <div class="row px-0 h-100">
-    <div class="col-12 px-0 h-100 my-auto">
-      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ECXg2sy76no?controls=0?rel=0&amp;autoplay=1&mute=1" allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-      <a [routerLink]="['/experiencia-unica']" title="entrar" class="link2 absoluto btn btn-danger px-3">Entrar</a> 
-      <!-- <img src="./assets/img/home/fondo.png" class="img-fluid" alt="fondo entrada expo virtual ucp">
-      <img src="./assets/img/home/bot.png" class="bot absoluto box-animated" title="bienvenido" alt="bot expo virtual ucp">
-      <a [routerLink]="['/experiencia-unica']" title="entrar" class="link absoluto"></a> -->
-    </div>
-  </div>
-</div>
+
+  <a-scene>
+    <a-assets>
+        <img id="banner" src="./assets/img/home/banner.png" alt="">
+        <img id="logoucp" src="./assets/img/entrada/logo-vigi-black.png" alt="">
+        
+        <!-- <img id="agora" src="./assets/img/home/agora.jpg" alt="Universidad Católica de Pereira">
+        <img id="verde" src="./assets/img/home/verdeucp.jpg" alt="Universidad Católica de Pereira">
+        <img id="pse" src="./assets/img/home/pse.png" alt="Pagos enlínea"> -->
+        <img id="pageucp" src="./assets/img/home/pageucp.png" alt="Pagos enlínea">
+        <img id="biblioteca" src="./assets/img/home/biblioteca.png" alt="Pagos enlínea">
+        <img id="parqueadero" src="./assets/img/home/parqueaderowm.png" alt="Pagos enlínea">
+        <img id="play" src="./assets/img/home/play.png" alt="Pagos enlínea">
+        <!-- flecha -->
+        <img id="dir-left" src="./assets/img/home/dir-left.png" alt="Pagos enlínea">
+        <!-- recuadro -->
+    <!-- <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg"> -->
+    <!-- recuadro -->
+    <!-- <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg"> -->
+    <!-- recuadro -->
+    <!-- <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg"> -->
+    </a-assets>
+
+
+    <a-cylinder color="#ffd500"
+                    height="2"
+                    radius="2"
+                    segments-radial="6"
+                    open-ended="true"
+                    side="double"
+                    position="-8 1.4 -10"
+                    repeat="2"
+                    src="#play"
+                    navigate-on-click="url: https://biblioteca.ucp.edu.co/"
+                    ></a-cylinder>
+
+    
+  <a-image position="-16 5.9 -5.9" rotation="0 94 1.4" src="#biblioteca" width="11" height="6.4" navigate-on-click="url: https://biblioteca.ucp.edu.co/" >
+  </a-image>
+  
+
+
+  <!-- logo -->
+  <a-image position="-9.5 1.1 10" rotation="0 125 4.9" src="#logoucp" width="9" height="3.5" 
+  event-set__enter="_event: mouseenter; color: #cococo"  
+  event-set__leave="_event: mouseleave; color: #fff">  
+   <!-- This animation begins when the sphere is clicked with the mouse. -->
+   <a-animation attribute="rotation"
+   dur="2000"
+   fill="forwards"
+   to="0 180 2.4"
+   direction="alternate"
+   begin="mouseenter"></a-animation>
+  </a-image>
+
+  <!-- button to start visit stands  -->
+  <a [routerLink]="['/entrada']" title="entrar" class="link2 absoluto btn btn-warning px-3">Ingresar al campus</a>
+  <a class="ctrl-position absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a>
+  <!-- 360-degree image. -->
+  <a-sky id="image-360" radius="80" src="#parqueadero"
+  ></a-sky>
+
+  
+   <!-- 
+       The camera has a cursor component,
+       which uses the mouse as the rayOrigin,
+       so that you can click entities in the scene
+       with the mouse.
+  -->
+  <a-entity id="camera" camera="userHeight: .2" position="0 2 0" rotation="0 89 0" look-controls cursor="rayOrigin: mouse">
+  </a-entity>
+</a-scene>
+
