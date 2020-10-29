@@ -3,23 +3,33 @@
 }
 
 li{
-    padding: 5px;
+    padding: 0px;
     text-align: center;
-    margin-top: 10px;
-    box-shadow: 10px 5px 5px #00000080;
+    width: 100%;
+    background: white;
+    margin-top: 0;
+    border-radius: 25px / 25px ;
 }
 
 .menDos{
-    left: 1.5%;
-    bottom: 4%;
+    left: 2.8%;
+    bottom: 2%;
     z-index: 2;
+    width: 15%;
+    height: fit-content;
 }
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #264067;
+    font-size: calc(0.45em + 0.45vw);
+
 }
 
-a:hover{
-    font-weight: bolder;
+
+.menDos span {
+
+    font-size: calc(1.1em + 1.1vw);
+    vertical-align: middle;
+
 }

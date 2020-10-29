@@ -2,7 +2,7 @@
   <div class="row px-0 h-100">
     <div class="col-12 px-0 h-100">
       <img src="./assets/img/pregrado/mercadeo/mercadeo.png" class="img-fluid h-100 mh-100" alt="fondo expo virtual ucp">
-      <a [routerLink]="['/mapa-expo']" title="Home" class="homeStand absoluto box-animated" ><span class="icon-home4"></span></a>
+      <a [routerLink]="['/mapa-expo']" title="Home" class="homeStand absoluto box-animated" ><span class="icon-home-7"></span></a>
       <div class="wrappersvglogo">
         <img src="./assets/img/general/logou.svg" class="" alt="Universidad Católica de Pereira" id="logosvg">
       </div>
@@ -10,8 +10,9 @@
         <img src="./assets/img/general/tv.png" class="animate__animated animate__pulse animate__infinite" alt="Universidad Católica de Pereira" id="logosvg">
       </div>
       <a (click)="openVideos()" title="Videos" class="video absoluto" style="cursor: pointer;" (mouseenter)="play(true)" (mouseleave)="play(false)"></a>
-      <a (click)="openGaleria()" title="Galeria" class="fotosStand absoluto" style="cursor: pointer;">
-        <img src="./assets/img/general/fotos.png" alt="fotos expo virtual ucp" class="img-fluid animate__animated animate__pulse animate__infinite">
+      <a (click)="openGaleria()" title="Galeria" class="fotosStand absoluto box-animated" style="cursor: pointer;">
+        <span class="icon-photo-5"></span>
+        <!-- <img src="./assets/img/general/fotos.png" alt="fotos expo virtual ucp" class="img-fluid animate__animated animate__pulse animate__infinite"> -->
       </a>
       <a href="https://www.ucp.edu.co/internacionalizacion/" class="mundo absoluto" target="_blank" rel="noopener noreferrer" title="Internacionalizacion">
         <img src="./assets/img/general/mundo.png" alt="mundo expo virtual ucp" class="animate__animated animate__pulse animate__infinite">

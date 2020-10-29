@@ -7,15 +7,13 @@ li{
     text-align: center;
     width: 80%;
     background: white;
-    margin-top: 10px;
-    /*box-shadow: 10px 5px 5px #00000080;*/
-    /*border: 1px solid red;*/
+    margin-top: 15px;
     border-radius: 4px;
 }
 
 .menuUno{
     left: 0.7%;
-    top: 25%;
+    top: 24%;
     z-index: 2;
 }
 
