@@ -1,0 +1,9 @@
+
+.ctrl-position {
+    position: absolute;
+    display: block;
+    right: 0;
+    bottom: 19%;
+    z-index: 5;
+
+}

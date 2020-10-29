@@ -5,7 +5,9 @@ declare var $: any;
 
 @Component({
   selector: 'app-home',
+  // la vista
   templateUrl: './home.component.html',
+  // ruta estios
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {

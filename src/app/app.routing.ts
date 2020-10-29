@@ -1,10 +1,12 @@
 import { ModuleWithProviders } from '@angular/core';
+// importación de ruta
 import { Routes, RouterModule } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
 import { XpComponent } from './layout/xp/xp.component';
 import { StandComponent } from './layout/stand/stand.component';
 
 import { HomeComponent } from './pages/home/home.component';
+import { EntradaComponent } from './pages/entrada/entrada.component';
 import { PsicologiaComponent } from './pages/pregrado/psicologia/psicologia.component';
 import { ExpUnicaComponent } from './pages/exp-unica/exp-unica.component';
 import { MapaComponent } from './pages/mapa/mapa.component';
@@ -35,8 +37,11 @@ import { EpecializacionGestionConstruccionSostenibleComponent } from './pages/po
 import { EpecializacionArquitecturaBioclimaticaComponent } from './pages/posgrado/epecializacion-arquitectura-bioclimatica/epecializacion-arquitectura-bioclimatica.component';
 import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/especializacion-desarrollo-software/especializacion-desarrollo-software.component';
 
+// variable que contiene todas las rutas
 const appRoutes: Routes = [
 
+	//path: la ruta que queremos configurar; component: compoenente asociado a la ruta
+	{path: 'entrada', component: EntradaComponent},
 	{path: '', component: HomeComponent},
 	{ 
 		path: '', 
@@ -86,7 +91,8 @@ const appRoutes: Routes = [
 		]
 	},
 
-	{path: '**', component: HomeComponent}
+	{path: '**', component: HomeComponent},
+	
 ];
 
 

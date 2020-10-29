@@ -51,12 +51,13 @@ import { MaestriaPedagogiaYDesarrolloHumanoComponent } from './pages/posgrado/ma
 import { EpecializacionGestionConstruccionSostenibleComponent } from './pages/posgrado/epecializacion-gestion-construccion-sostenible/epecializacion-gestion-construccion-sostenible.component';
 import { EpecializacionArquitecturaBioclimaticaComponent } from './pages/posgrado/epecializacion-arquitectura-bioclimatica/epecializacion-arquitectura-bioclimatica.component';
 import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/especializacion-desarrollo-software/especializacion-desarrollo-software.component';
+import { EntradaComponent } from './pages/entrada/entrada.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
     HomeComponent,
+    AppComponent,
     PsicologiaComponent,
     LayoutComponent,
     ExpUnicaComponent,
@@ -99,7 +100,8 @@ import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/esp
     MaestriaPedagogiaYDesarrolloHumanoComponent,
     EpecializacionGestionConstruccionSostenibleComponent,
     EpecializacionArquitecturaBioclimaticaComponent,
-    EspecializacionDesarrolloSoftwareComponent
+    EspecializacionDesarrolloSoftwareComponent,
+    EntradaComponent
   ],
   entryComponents: [CarouselVideosComponent, CarouselFotosComponent, PromoComponent, formStands],
   imports: [
