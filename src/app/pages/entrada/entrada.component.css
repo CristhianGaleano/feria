@@ -1,9 +1,18 @@
 
-.ctrl-position {
+.position {
     position: absolute;
     display: block;
-    right: 0;
-    bottom: 19%;
-    z-index: 5;
+    
 
+}
+
+.ctrl-ubicacion {
+    bottom: 10%;
+    left: 50%;
+    z-index: 5;
+}
+.btnoferta-ubicacion {
+    right: 0;
+    bottom: 17%;
+    z-index: 5;
 }
