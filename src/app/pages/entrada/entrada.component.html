@@ -1,0 +1,91 @@
+
+  <a-scene>
+    <a-assets>
+        <img id="banner" src="./assets/img/home/banner.png" alt="">
+        <!-- <img id="logoucp" src="./assets/img/home/logo.png" alt=""> -->
+        <img id="fondoucp" src="./assets/img/home/full-ucp.jpg" alt="Universidad Católica de Pereira">
+        <!-- <img id="agora" src="./assets/img/home/agora.jpg" alt="Universidad Católica de Pereira">
+        <img id="verde" src="./assets/img/home/verdeucp.jpg" alt="Universidad Católica de Pereira">
+        <img id="pse" src="./assets/img/home/pse.png" alt="Pagos enlínea"> -->
+        <img id="pageucp" src="./assets/img/home/pageucp.png" alt="Pagos enlínea">
+        <img id="biblioteca" src="./assets/img/home/biblioteca.png" alt="Pagos enlínea">
+        <img id="dir-left" src="./assets/img/home/dir-left.png" alt="Pagos enlínea">
+        <!-- recuadro -->
+    <!-- <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg"> -->
+    <!-- recuadro -->
+    <!-- <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg"> -->
+    <!-- recuadro -->
+    <!-- <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg"> -->
+    </a-assets>
+
+    
+
+   <!-- Image links. -->
+    <!-- <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -6">
+    <a-entity template="src: #link" data-src="#agora" data-thumb="#cubes-thumb"></a-entity>
+    <a-entity template="src: #link" data-src="#verde" data-thumb="#city-thumb"></a-entity>
+  </a-entity> -->
+
+
+  <!-- <a-entity id="linklogo" template="src: #" layout="type: line; margin: 1.5" position="1 1 -5" data-thumb="#logoucp"></a-entity> -->
+
+  
+  <a-image position="2 2.1 11" src="#dir-left" width="3" height="1.5" navigate-on-click="url: https://biblioteca.ucp.edu.co/" rotation="0 180 -3">
+  </a-image>
+  <a-image position="0 4.8 10" rotation="0 180 -2" src="#biblioteca" width="4" height="2.4" navigate-on-click="url: https://biblioteca.ucp.edu.co/" >
+  </a-image>
+
+  <a-image position="8 5.4 2" link="href: https://www.pagosvirtualesavvillas.com.co/personal/pagos/8282; title: Pago de inscripciones; color: green;" rotation="1 95 3"></a-image>
+  <!-- <a-image height="2" position="-2 .4 -9" link="href: feriados.html; title: visita: www.ucp.edu.co; color: red; repeat: 1 2;"></a-image> -->
+  
+
+<!-- visit web -->
+  <a-image position="4.2 4 -3" width="2" src="#pageucp" navigate-on-click="url: https:www.ucp.edu.co" rotation="0 -80 0"
+  event-set__enter="_event: mouseenter; color: #F9F9F9"  
+  event-set__leave="_event: mouseleave; color: #fff">  
+   <!-- This animation begins when the sphere is clicked with the mouse. -->
+   <a-animation attribute="position"
+   dur="1000"
+   fill="forwards"
+   to="0 2.5 -6"
+   direction="alternate"
+   begin="click"></a-animation>
+  </a-image>
+
+  <!-- banner -->
+  <a-image position="3 1.9 -10" rotation="0 -50 0" src="#banner" width="8" height="3.5"  navigate-on-click="url: https://matriculas.ucp.edu.co/se/inscriptions.aspx" 
+  event-set__enter="_event: mouseenter; color: #cococo"  
+  event-set__leave="_event: mouseleave; color: #fff">  
+   <!-- This animation begins when the sphere is clicked with the mouse. -->
+   <a-animation attribute="rotation"
+   dur="2000"
+   fill="forwards"
+   to="0 2.5 2.4"
+   direction="alternate"
+   begin="mouseenter"></a-animation>
+  </a-image>
+
+  <!-- button to start visit stands  -->
+  <!-- <a [routerLink]="['/experiencia-unica']" title="entrar" class="link2 absoluto btn btn-warning px-3">Ingresar al campus</a> -->
+
+  
+  <!-- button to start visit stands  -->
+  <!-- <a [routerLink]="['/entrada']" title="entrar" class="link2 absoluto btn btn-warning px-3">Ingresar al campus</a> -->
+  <a class="ctrl-position absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a>
+
+  <!-- 360-degree image. -->
+  <a-sky id="image-360" radius="80" src="#fondoucp"
+  animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
+  animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"></a-sky>
+
+  
+   <!-- 
+       The camera has a cursor component,
+       which uses the mouse as the rayOrigin,
+       so that you can click entities in the scene
+       with the mouse.
+  -->
+  <a-entity id="camera" camera="userHeight: .2" rotation="0 -60 0" look-controls cursor="rayOrigin: mouse">
+  </a-entity>
+</a-scene>
+

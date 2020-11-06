@@ -1,6 +1,9 @@
+// este archivo declara los componentes que vamos a usar
+
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { routing, appRoutingProviders } from './app.routing';
+
 
 import {MatDialogModule} from '@angular/material/dialog';
 import { NgxUsefulSwiperModule } from 'ngx-useful-swiper';
@@ -49,12 +52,14 @@ import { MaestriaPedagogiaYDesarrolloHumanoComponent } from './pages/posgrado/ma
 import { EpecializacionGestionConstruccionSostenibleComponent } from './pages/posgrado/epecializacion-gestion-construccion-sostenible/epecializacion-gestion-construccion-sostenible.component';
 import { EpecializacionArquitecturaBioclimaticaComponent } from './pages/posgrado/epecializacion-arquitectura-bioclimatica/epecializacion-arquitectura-bioclimatica.component';
 import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/especializacion-desarrollo-software/especializacion-desarrollo-software.component';
+import { EntradaComponent } from './pages/entrada/entrada.component';
+import { CapillaComponent } from './pages/capilla/capilla.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
     HomeComponent,
+    AppComponent,
     PsicologiaComponent,
     LayoutComponent,
     ExpUnicaComponent,
@@ -97,7 +102,9 @@ import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/esp
     MaestriaPedagogiaYDesarrolloHumanoComponent,
     EpecializacionGestionConstruccionSostenibleComponent,
     EpecializacionArquitecturaBioclimaticaComponent,
-    EspecializacionDesarrolloSoftwareComponent
+    EspecializacionDesarrolloSoftwareComponent,
+    EntradaComponent,
+    CapillaComponent
   ],
   entryComponents: [CarouselVideosComponent, CarouselFotosComponent, PromoComponent, formStands],
   imports: [
@@ -106,7 +113,9 @@ import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/esp
     BrowserAnimationsModule,
     MatDialogModule,
     NgxUsefulSwiperModule
+    
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   exports: [MatDialogModule, NgxUsefulSwiperModule],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]
