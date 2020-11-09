@@ -8,6 +8,7 @@ import { StandComponent } from './layout/stand/stand.component';
 import { HomeComponent } from './pages/home/home.component';
 import { EntradaComponent } from './pages/entrada/entrada.component';
 import { CapillaComponent } from './pages/capilla/capilla.component';
+import { MercadeoMatriculasComponent } from './pages/mercadeo-matriculas/mercadeo-matriculas.component';
 import { PsicologiaComponent } from './pages/pregrado/psicologia/psicologia.component';
 import { ExpUnicaComponent } from './pages/exp-unica/exp-unica.component';
 import { MapaComponent } from './pages/mapa/mapa.component';
@@ -45,11 +46,13 @@ const appRoutes: Routes = [
 	{path: 'entrada', component: EntradaComponent},
 	{path: '', component: HomeComponent},
 	{path: 'capilla', component: CapillaComponent},
+	{path: 'mercadeo-matriculas', component: MercadeoMatriculasComponent},
 	{ 
 		path: '', 
 		component: XpComponent,
 		children: [
-			{path: 'experiencia-unica', component: ExpUnicaComponent}
+			{path: 'experiencia-unica', component: ExpUnicaComponent},
+			
 		]
 	},
 	{ 

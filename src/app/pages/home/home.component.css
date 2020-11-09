@@ -17,13 +17,13 @@
     right: 1%;
     bottom: 11%;
     z-index: 5;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .ctrl-position {
     position: absolute;
     display: block;
-    right: 0;
+    left: 0;
     bottom: 22%;
     z-index: 5;
 

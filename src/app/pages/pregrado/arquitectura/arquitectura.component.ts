@@ -16,7 +16,7 @@ export class ArquitecturaComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/w0PZFAmMe4Q", img: "http://i3.ytimg.com/vi/w0PZFAmMe4Q/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/wVgr1YPLPjY", img: "http://i3.ytimg.com/vi/w0PZFAmMe4Q/hqdefault.jpg"}
     ]
 
     this.listFotos = [

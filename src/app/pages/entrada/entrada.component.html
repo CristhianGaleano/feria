@@ -23,19 +23,21 @@
 
     
 
-   <!-- Image links. -->
-    <!-- <a-entity id="links" layout="type: line; margin: 1.5" position="0 -1 -6">
-    <a-entity template="src: #link" data-src="#agora" data-thumb="#cubes-thumb"></a-entity>
-    <a-entity template="src: #link" data-src="#verde" data-thumb="#city-thumb"></a-entity>
-  </a-entity> -->
-
 
   <!-- <a-entity id="linklogo" template="src: #" layout="type: line; margin: 1.5" position="1 1 -5" data-thumb="#logoucp"></a-entity> -->
 
   
-  
-  <a-image id="elementInfomercadeo" [routerLink]="['/experiencia-unica']" position="6.2 1.3 11.2" rotation="0 185 -3" src="#infomercadeo" width="1" height="1.2" >
+  <!-- <a-entity color="#FAF9F8"
+                    geometry="primitive: plane; color: #ffffff; height: 1; width: auto"
+                    position="0.8 2.1 1"
+                    rotation="0 185 -1"
+                    text="width: 0; color: white;  height: 2; align: center; value: Oficina de Mercadeo"
+                    ></a-entity> -->
+
+                    
+  <a-image id="elementInfomercadeo"  position="4.5 3 7.5" rotation="0 185 -3" src="#infomercadeo" width="2" height="1" [routerLink]="['/mercadeo-matriculas']">
   </a-image>
+
   <a-image position="0 4.8 10" rotation="0 180 -4.9" src="#biblioteca" width="4" height="2.4" navigate-on-click="url: https://biblioteca.ucp.edu.co/" >
   </a-image>
 
@@ -70,18 +72,16 @@
   </a-image>
 
 
-  <a-cylinder color="#ffd500"
-                    height="2"
-                    radius="2"
-                    segments-radial="6"
-                    open-ended="true"
-                    side="double"
-                    position="-8 1.4 -10"
-                    rotation="0 100 0"
-                    repeat="2"
+  <a-box color="#ffffff"
+                    height="5"
+                    width="8.5"
+                    position="-7 1.2 -10"
+                    rotation="0 200 0"
+                    depth="0.5"
+                    repeat="1"
                     src="#play"
-                    navigate-on-click="url: https://biblioteca.ucp.edu.co/"
-                    ></a-cylinder>
+                    navigate-on-click="url: https://youtu.be/W15wHejwKPc"
+                    ></a-box>
 
 
   <!-- button to start visit stands  -->

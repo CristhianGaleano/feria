@@ -54,6 +54,7 @@ import { EpecializacionArquitecturaBioclimaticaComponent } from './pages/posgrad
 import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/especializacion-desarrollo-software/especializacion-desarrollo-software.component';
 import { EntradaComponent } from './pages/entrada/entrada.component';
 import { CapillaComponent } from './pages/capilla/capilla.component';
+import { MercadeoMatriculasComponent } from './pages/mercadeo-matriculas/mercadeo-matriculas.component';
 
 
 @NgModule({
@@ -104,7 +105,8 @@ import { CapillaComponent } from './pages/capilla/capilla.component';
     EpecializacionArquitecturaBioclimaticaComponent,
     EspecializacionDesarrolloSoftwareComponent,
     EntradaComponent,
-    CapillaComponent
+    CapillaComponent,
+    MercadeoMatriculasComponent
   ],
   entryComponents: [CarouselVideosComponent, CarouselFotosComponent, PromoComponent, formStands],
   imports: [

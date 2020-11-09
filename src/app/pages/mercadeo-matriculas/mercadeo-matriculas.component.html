@@ -1,0 +1,131 @@
+
+  <a-scene>
+    <a-assets>
+        <img id="banner" src="./assets/img/home/banner.png" alt="">
+        <!-- <img id="logoucp" src="./assets/img/home/logo.png" alt=""> -->
+        <img id="mercadeo" src="./assets/img/mercadeo/mercadeowm.jpg" alt="Universidad Católica de Pereira">
+        <img id="pse" src="./assets/img/home/pse.png" alt="Pagos enlínea"> 
+        <img id="biblioteca" src="./assets/img/home/biblioteca.png" alt="Pagos enlínea">
+        <img id="informacion" src="./assets/img/entrada/informacion.png" alt="Pagos enlínea">
+        <img id="play" src="./assets/img/mercadeo/videoinscipcion.png" alt="Pagos">
+        <img id="wp" src="./assets/img/mercadeo/whatsapp.png" alt="">
+        <img id="letra" src="./assets/img/mercadeo/letravideoingresaralau.png" alt="">
+        <img id="marcapositionplaza" src="./assets/img/mercadeo/w-info-plaza.png" alt="">
+        <!-- <img id="infomercadeo" src="./assets/img/entrada/w-info-mercadeo.png" alt=""> -->
+        
+    
+    </a-assets>
+
+    <a-entity
+    id="marcadorplaza"
+    text="color: white; value: Plazoleta 14 de febrero;"
+    scale=".1 .4 .1"
+    position="1.6 2 3"
+    rotation="0 180 0"
+  ></a-entity>
+    <a-image 
+    position="6.6 1.5 11.5" rotation="0 185 -3" src="#marcapositionplaza" width="1.2" height="1.3" [routerLink]="['/entrada']"
+    activate-name=""
+    >
+    </a-image>
+  <!-- <a-box box position="1 0 -2" color="red" activate-name=""></a-box> -->
+
+  <a-entity id="linklogo" template="src: #" layout="type: line; margin: 1.5" position="1 1 -5" data-thumb="#logoucp"></a-entity>
+
+  <a-circle color="white"
+  side="double"
+  position="-11.5 .4 12.5"
+  rotation="0 160 7.5"
+  src="#wp"
+  navigate-on-click="url: https://wa.me/573013877446?text=Hola!%20Dejanos%20tu%20solicitud%20"
+  >
+ </a-circle>
+
+  <a-entity
+  position="-4.9 -1 2.5"
+  rotation="-90 180 7.5"
+  geometry="primitive: plane; height: 1; width: 11;"
+  text="width: 11; side: double; height: 12; align: center; value: Inscripciones abiertas"></a-entity>
+
+  
+  <a-cylinder 
+                    color="#ffffff"
+                    height="2"
+                    radius="2"
+                    segments-radial="6"
+                    open-ended="true"
+                    side="double"
+                    position="-5 1 -7"
+                    rotation="0 130 0"
+                    repeat="2"
+                    src="#play"
+                    navigate-on-click="url: https://youtu.be/pOiL4f7RZz0"
+                    
+                    ></a-cylinder>
+                  
+                    
+<!--   
+  <a-image id="elementInfomercadeo" [routerLink]="['/mercadeo-matriculas']" position="6.2 1.3 11.2" rotation="0 185 -3" src="#infomercadeo" width="1" height="1.2" >
+  </a-image> -->
+<!-- 
+  <a-image position="0 4.8 10" rotation="0 180 -4.9" src="#biblioteca" width="4" height="2.4" navigate-on-click="url: https://biblioteca.ucp.edu.co/" >
+  </a-image> -->
+
+  <!-- <a-image position="8 5.4 2" link="href: https://www.pagosvirtualesavvillas.com.co/personal/pagos/8282; title: Pago de inscripciones; color: green;" rotation="1 95 3"></a-image> -->
+  <!-- <a-image height="2" position="-2 .4 -9" link="href: feriados.html; title: visita: www.ucp.edu.co; color: red; repeat: 1 2;"></a-image> -->
+  
+
+<!-- visit web -->
+  <!-- <a-image position="4.2 4 -3" width="2" src="#pageucp" navigate-on-click="url: https:www.ucp.edu.co" rotation="0 -80 0"
+  event-set__enter="_event: mouseenter; color: #F9F9F9"  
+  event-set__leave="_event: mouseleave; color: #fff">  
+   
+   <a-animation attribute="position"
+   dur="1000"
+   fill="forwards"
+   to="0 2.5 -6"
+   direction="alternate"
+   begin="click"></a-animation>
+  </a-image> -->
+
+  <!-- banner -->
+  <!-- <a-image position="-8 1.9 12" rotation="0 128 0" depth="3" src="#banner" width="8" height="3.5"  navigate-on-click="url: https://matriculas.ucp.edu.co/se/inscriptions.aspx" 
+  event-set__enter="_event: mouseenter; color: #cococo"  
+  event-set__leave="_event: mouseleave; color: #fff">  
+   
+   <a-animation attribute="rotation"
+   dur="2000"
+   fill="forwards"
+   to="0 2.5 2.4"
+   direction="alternate"
+   begin="mouseenter"></a-animation>
+  </a-image> -->
+
+
+
+
+  <!-- button to start visit stands  -->
+  <!-- <a [routerLink]="['/experiencia-unica']" title="entrar" class="link2 absoluto btn btn-warning px-3">Ingresar al campus</a> -->
+
+  
+  <!-- button to start visit stands  -->
+  <a [routerLink]="['/experiencia-unica']" title="entrar" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta</a>
+  <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a>
+
+  <!-- 360-degree image. -->
+  <a-sky id="image-360" radius="80" src="#mercadeo"
+  animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
+  animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"></a-sky>
+
+  
+  
+   <!-- 
+       The camera has a cursor component,
+       which uses the mouse as the rayOrigin,
+       so that you can click entities in the scene
+       with the mouse.
+  -->
+  <a-entity id="camera" camera="userHeight: .2" position="0 2 0" rotation="0 89 -3" look-controls cursor="rayOrigin: mouse">
+  </a-entity>
+</a-scene>
+

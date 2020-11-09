@@ -16,7 +16,7 @@ export class DisenoIndustrialComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/jrf1WM97yAQ", img: "http://i3.ytimg.com/vi/jrf1WM97yAQ/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/gaSI3zS3XnU", img: "http://i3.ytimg.com/vi/jrf1WM97yAQ/hqdefault.jpg"}
     ]
 
     this.listFotos = [

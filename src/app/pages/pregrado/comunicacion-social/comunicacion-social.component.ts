@@ -16,7 +16,7 @@ export class ComunicacionSocialComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/wOAMfDdJcoQ", img: "http://i3.ytimg.com/vi/wOAMfDdJcoQ/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/p12k-NI-_fc", img: "http://i3.ytimg.com/vi/wOAMfDdJcoQ/hqdefault.jpg"}
     ]
 
     this.listFotos = [

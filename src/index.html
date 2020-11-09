@@ -35,7 +35,27 @@
             window.open(data.url,'_blank');
           });
         }
-      });        
+      });       
+      
+      AFRAME.registerComponent("activate-name", {
+  schema: {
+    default: ""
+  },
+  init: function() {
+    var data = this.data;
+    var el = this.el;
+    var fernando = document.querySelector("#marcadorplaza");
+    el.addEventListener("mouseenter", function() {
+      fernando.setAttribute("scale", "2 2 2");
+    });
+    var marcadormercadeo = document.querySelector("#marcadormercadeo");
+    el.addEventListener("mouseenter", function() {
+      marcadormercadeo.setAttribute("scale", "2 2 2");
+    });
+
+
+  }
+});
      
     </script>
 
