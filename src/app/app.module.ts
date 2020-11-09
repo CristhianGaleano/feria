@@ -55,6 +55,14 @@ import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/esp
 import { EntradaComponent } from './pages/entrada/entrada.component';
 import { CapillaComponent } from './pages/capilla/capilla.component';
 import { MercadeoMatriculasComponent } from './pages/mercadeo-matriculas/mercadeo-matriculas.component';
+import { LerComponent } from './pages/pregrado/ler/ler.component';
+import { TecDesarrolloSoftwareComponent } from './pages/pregrado/tec-desarrollo-software/tec-desarrollo-software.component';
+import { DisenoAudiovisualComponent } from './pages/pregrado/diseno-audiovisual/diseno-audiovisual.component';
+import { CorredorPrincipalComponent } from './pages/corredor-principal/corredor-principal.component';
+import { CieComponent } from './pages/cie/cie.component';
+import { CanchaComponent } from './pages/cancha/cancha.component';
+import { AletehiaComponent } from './pages/aletehia/aletehia.component';
+import { ZonaverdePeatonalComponent } from './pages/zonaverde-peatonal/zonaverde-peatonal.component';
 
 
 @NgModule({
@@ -106,7 +114,15 @@ import { MercadeoMatriculasComponent } from './pages/mercadeo-matriculas/mercade
     EspecializacionDesarrolloSoftwareComponent,
     EntradaComponent,
     CapillaComponent,
-    MercadeoMatriculasComponent
+    MercadeoMatriculasComponent,
+    LerComponent,
+    TecDesarrolloSoftwareComponent,
+    DisenoAudiovisualComponent,
+    CorredorPrincipalComponent,
+    CieComponent,
+    CanchaComponent,
+    AletehiaComponent,
+    ZonaverdePeatonalComponent
   ],
   entryComponents: [CarouselVideosComponent, CarouselFotosComponent, PromoComponent, formStands],
   imports: [

@@ -1,19 +1,11 @@
 
   <a-scene>
     <a-assets>
-        <img id="banner" src="./assets/img/home/banner.png" alt="">
-        <!-- <img id="logoucp" src="./assets/img/home/logo.png" alt=""> -->
-        <img id="fondoucp" src="./assets/img/home/full-ucp.jpg" alt="Universidad Católica de Pereira">
-        <!-- <img id="agora" src="./assets/img/home/agora.jpg" alt="Universidad Católica de Pereira">
-        <img id="verde" src="./assets/img/home/verdeucp.jpg" alt="Universidad Católica de Pereira">
-        <img id="pse" src="./assets/img/home/pse.png" alt="Pagos enlínea"> -->
-        <img id="pageucp" src="./assets/img/home/pageucp.png" alt="Pagos enlínea">
-        <img id="biblioteca" src="./assets/img/home/biblioteca.png" alt="Pagos enlínea">
-        <img id="dir-left" src="./assets/img/home/dir-left.png" alt="Pagos enlínea">
+        
+        <img id="sky" src="./assets/img/corredor/corredor.JPG" alt="Universidad Católica de Pereira">
         <img id="informacion" src="./assets/img/entrada/informacion.png" alt="Pagos enlínea">
         <img id="play" src="./assets/img/entrada/play.png" alt="Pagos">
-        <img id="infomercadeo" src="./assets/img/entrada/w-info-mercadeo.png" alt="">
-        <img id="corredor" src="./assets/img/entrada/marcador-corredor.png" alt="">
+        
         <!-- recuadro -->
     <!-- <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg"> -->
     <!-- recuadro -->
@@ -35,15 +27,10 @@
                     text="width: 0; color: white;  height: 2; align: center; value: Oficina de Mercadeo"
                     ></a-entity> -->
 
-                    
-  <a-image   position="5 2.9 -1.7" rotation="0 -30 -3" src="#corredor" width="2" height="1" [routerLink]="['/corredor-principal']">
-  </a-image>
-  <a-image id="elementInfomercadeo"  position="4.5 3 7.5" rotation="0 185 -3" src="#infomercadeo" width="2" height="1" [routerLink]="['/mercadeo-matriculas']">
-  </a-image>
-
-  <a-image position="0 4.8 10" rotation="0 180 -4.9" src="#biblioteca" width="4" height="2.4" navigate-on-click="url: https://biblioteca.ucp.edu.co/" >
-  </a-image>
-
+<!--                     
+  <a-image   position="4.5 2.3 2" rotation="0 60 -3" src="#corredor" width="2" height="1" [routerLink]="['/corredor-principal']">
+  </a-image> -->
+  
   <!-- <a-image position="8 5.4 2" link="href: https://www.pagosvirtualesavvillas.com.co/personal/pagos/8282; title: Pago de inscripciones; color: green;" rotation="1 95 3"></a-image> -->
   <!-- <a-image height="2" position="-2 .4 -9" link="href: feriados.html; title: visita: www.ucp.edu.co; color: red; repeat: 1 2;"></a-image> -->
   
@@ -61,20 +48,8 @@
    begin="click"></a-animation>
   </a-image> -->
 
-  <!-- banner -->
-  <a-image position="-8 1.9 12" rotation="0 128 0" depth="3" src="#banner" width="8" height="3.5"  navigate-on-click="url: https://matriculas.ucp.edu.co/se/inscriptions.aspx" 
-  event-set__enter="_event: mouseenter; color: #cococo"  
-  event-set__leave="_event: mouseleave; color: #fff">  
-   <!-- This animation begins when the sphere is clicked with the mouse. -->
-   <a-animation attribute="rotation"
-   dur="2000"
-   fill="forwards"
-   to="0 2.5 2.4"
-   direction="alternate"
-   begin="mouseenter"></a-animation>
-  </a-image>
 
-
+<!-- 
   <a-box color="#ffffff"
                     height="5"
                     width="8.5"
@@ -85,18 +60,18 @@
                     src="#play"
                     navigate-on-click="url: https://youtu.be/W15wHejwKPc"
                     ></a-box>
-
+ -->
 
   <!-- button to start visit stands  -->
   <!-- <a [routerLink]="['/experiencia-unica']" title="entrar" class="link2 absoluto btn btn-warning px-3">Ingresar al campus</a> -->
 
   
   <!-- button to start visit stands  -->
-  <a [routerLink]="['/experiencia-unica']" title="entrar" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta</a>
-  <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a>
+  <!-- <a [routerLink]="['/experiencia-unica']" title="entrar" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta</a>
+  <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a> -->
 
   <!-- 360-degree image. -->
-  <a-sky id="image-360" radius="80" src="#fondoucp"
+  <a-sky id="image-360" radius="80" src="#sky"
   animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
   animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"></a-sky>
 

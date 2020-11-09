@@ -5,10 +5,13 @@ import { LayoutComponent } from './layout/layout.component';
 import { XpComponent } from './layout/xp/xp.component';
 import { StandComponent } from './layout/stand/stand.component';
 
+import { CorredorPrincipalComponent } from './pages/corredor-principal/corredor-principal.component';
 import { HomeComponent } from './pages/home/home.component';
 import { EntradaComponent } from './pages/entrada/entrada.component';
 import { CapillaComponent } from './pages/capilla/capilla.component';
 import { MercadeoMatriculasComponent } from './pages/mercadeo-matriculas/mercadeo-matriculas.component';
+import { TecDesarrolloSoftwareComponent } from './pages/pregrado/tec-desarrollo-software/tec-desarrollo-software.component';
+import { LerComponent } from './pages/pregrado/ler/ler.component';
 import { PsicologiaComponent } from './pages/pregrado/psicologia/psicologia.component';
 import { ExpUnicaComponent } from './pages/exp-unica/exp-unica.component';
 import { MapaComponent } from './pages/mapa/mapa.component';
@@ -43,8 +46,9 @@ import { EspecializacionDesarrolloSoftwareComponent } from './pages/posgrado/esp
 const appRoutes: Routes = [
 
 	//path: la ruta que queremos configurar; component: compoenente asociado a la ruta
-	{path: 'entrada', component: EntradaComponent},
 	{path: '', component: HomeComponent},
+	{path: 'corredor-principal', component: CorredorPrincipalComponent},
+	{path: 'entrada', component: EntradaComponent},
 	{path: 'capilla', component: CapillaComponent},
 	{path: 'mercadeo-matriculas', component: MercadeoMatriculasComponent},
 	{ 
@@ -66,6 +70,8 @@ const appRoutes: Routes = [
 		path: '',
 		component: StandComponent,
 		children: [
+			{path: 'pregrado/tec-desarrollo-software', component: TecDesarrolloSoftwareComponent},
+			{path: 'pregrado/ler', component: LerComponent},
 			{path: 'pregrado/psicologia', component: PsicologiaComponent},
 			{path: 'pregrado/diseno-industrial', component: DisenoIndustrialComponent},
 			{path: 'pregrado/arquitectura', component: ArquitecturaComponent},
