@@ -10,6 +10,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { EntradaComponent } from './pages/entrada/entrada.component';
 import { CapillaComponent } from './pages/capilla/capilla.component';
 import { MercadeoMatriculasComponent } from './pages/mercadeo-matriculas/mercadeo-matriculas.component';
+import { DisenoAudiovisualComponent } from './pages/pregrado/diseno-audiovisual/diseno-audiovisual.component';
 import { TecDesarrolloSoftwareComponent } from './pages/pregrado/tec-desarrollo-software/tec-desarrollo-software.component';
 import { LerComponent } from './pages/pregrado/ler/ler.component';
 import { PsicologiaComponent } from './pages/pregrado/psicologia/psicologia.component';
@@ -70,6 +71,7 @@ const appRoutes: Routes = [
 		path: '',
 		component: StandComponent,
 		children: [
+			{path: 'pregrado/diseno-audiovisual', component: DisenoAudiovisualComponent},
 			{path: 'pregrado/tec-desarrollo-software', component: TecDesarrolloSoftwareComponent},
 			{path: 'pregrado/ler', component: LerComponent},
 			{path: 'pregrado/psicologia', component: PsicologiaComponent},

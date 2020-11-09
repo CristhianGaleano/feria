@@ -16,7 +16,7 @@ export class PsicologiaComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/EzibMUCt4Ik", img: "http://i3.ytimg.com/vi/EzibMUCt4Ik/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/AZlB2kRMxO8", img: "http://i3.ytimg.com/vi/EzibMUCt4Ik/hqdefault.jpg"}
     ]
 
     this.listFotos = [

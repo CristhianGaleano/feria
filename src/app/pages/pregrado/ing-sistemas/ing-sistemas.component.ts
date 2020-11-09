@@ -16,7 +16,7 @@ export class IngSistemasComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/tD-XjqHsAKY", img: "http://i3.ytimg.com/vi/tD-XjqHsAKY/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/HGOyCEU_32M", img: "http://i3.ytimg.com/vi/tD-XjqHsAKY/hqdefault.jpg"}
     ]
 
     this.listFotos = [

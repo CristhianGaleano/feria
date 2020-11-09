@@ -16,7 +16,7 @@ export class MercadeoComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/f57OFlToIC0", img: "http://i3.ytimg.com/vi/f57OFlToIC0/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/LYR6GAIYz0I", img: "http://i3.ytimg.com/vi/f57OFlToIC0/hqdefault.jpg"}
     ]
 
     this.listFotos = [

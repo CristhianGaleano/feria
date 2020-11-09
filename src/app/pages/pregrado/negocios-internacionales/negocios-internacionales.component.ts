@@ -16,7 +16,7 @@ export class NegociosInternacionalesComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/5G0RYFPfVbY", img: "http://i3.ytimg.com/vi/5G0RYFPfVbY/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/bTaAWNaHZzc", img: "http://i3.ytimg.com/vi/5G0RYFPfVbY/hqdefault.jpg"}
     ]
 
     this.listFotos = [
