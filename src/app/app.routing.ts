@@ -1,3 +1,4 @@
+
 import { ModuleWithProviders } from '@angular/core';
 // importación de ruta
 import { Routes, RouterModule } from '@angular/router';
@@ -5,6 +6,8 @@ import { LayoutComponent } from './layout/layout.component';
 import { XpComponent } from './layout/xp/xp.component';
 import { StandComponent } from './layout/stand/stand.component';
 
+import { CanchaComponent } from './pages/cancha/cancha.component';
+import { ZonaverdePeatonalComponent } from './pages/zonaverde-peatonal/zonaverde-peatonal.component';
 import { CorredorPrincipalComponent } from './pages/corredor-principal/corredor-principal.component';
 import { HomeComponent } from './pages/home/home.component';
 import { EntradaComponent } from './pages/entrada/entrada.component';
@@ -48,6 +51,8 @@ const appRoutes: Routes = [
 
 	//path: la ruta que queremos configurar; component: compoenente asociado a la ruta
 	{path: '', component: HomeComponent},
+	{path: 'cancha', component: CanchaComponent},
+	{path: 'peatonal-zonaverde', component: ZonaverdePeatonalComponent},
 	{path: 'corredor-principal', component: CorredorPrincipalComponent},
 	{path: 'entrada', component: EntradaComponent},
 	{path: 'capilla', component: CapillaComponent},
@@ -90,14 +95,15 @@ const appRoutes: Routes = [
 			{path: 'posgrado/especializacion-psicologia-clinica', component: EspecializacionPsicologiaClinicaComponent},
 			{path: 'posgrado/especializacion-psicologia-psicosocial', component: EspecializacionPsicologiaPsicosocialComponent},
 			{path: 'posgrado/especializacion-gestion-humana', component: EspecializacionGestionHumanaComponent},
+			// ya
 			{path: 'posgrado/maestria-arquitectura-urbanismo', component: MaestriaArquitecturaUrbanismoComponent},
-			//{path: 'posgrado/maestria-innovacion', component: MaestriaInnovacionComponent},
-			//{path: 'posgrado/maestria-finanzas', component: MaestriaFinanzasComponent},
-			//{path: 'posgrado/especializacion-ciberasesoria-financiera', component: EspecializacionCiberasesoriaFinancieraComponent},
+			{path: 'posgrado/maestria-innovacion', component: MaestriaInnovacionComponent},
+			{path: 'posgrado/maestria-finanzas', component: MaestriaFinanzasComponent},
+			{path: 'posgrado/especializacion-ciberasesoria-financiera', component: EspecializacionCiberasesoriaFinancieraComponent},
 			{path: 'posgrado/especializacion-finanzas', component: EspecializacionFinanzasComponent},
 			{path: 'posgrado/maestria-estudios-culturales', component:MaestriaEstudiosCulturalesComponent},
 			{path: 'posgrado/maestria-memoria-y-escenarios-transicionales', component: MaestriaMemoriaYEscenariosTransicionalesComponent},
-			//{path: 'posgrado/maestria-pedagogia-y-desarrollo-humano', component: MaestriaPedagogiaYDesarrolloHumanoComponent},
+			{path: 'posgrado/maestria-pedagogia-y-desarrollo-humano', component: MaestriaPedagogiaYDesarrolloHumanoComponent},
 			{path: 'posgrado/epecializacion-gestion-construccion-sostenible', component: EpecializacionGestionConstruccionSostenibleComponent},
 			{path: 'posgrado/epecializacion-arquitectura-bioclimatica', component: EpecializacionArquitecturaBioclimaticaComponent},
 			{path: 'posgrado/especializacion-desarrollo-software', component: EspecializacionDesarrolloSoftwareComponent}

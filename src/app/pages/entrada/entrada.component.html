@@ -13,30 +13,20 @@
         <img id="informacion" src="./assets/img/entrada/informacion.png" alt="Pagos enlínea">
         <img id="play" src="./assets/img/entrada/play.png" alt="Pagos">
         <img id="infomercadeo" src="./assets/img/entrada/w-info-mercadeo.png" alt="">
-        <img id="corredor" src="./assets/img/entrada/marcador-corredor.png" alt="">
-        <!-- recuadro -->
-    <!-- <img id="city-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-city.jpg"> -->
-    <!-- recuadro -->
-    <!-- <img id="cubes-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-cubes.jpg"> -->
-    <!-- recuadro -->
-    <!-- <img id="sechelt-thumb" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/thumb-sechelt.jpg"> -->
+        <img id="marca-corredor" src="./assets/img/entrada/marcador-corredor.png" alt="">
+        <img id="marca-verdepeatonal" src="./assets/img/entrada/marca-verdepeatonal.png" alt="">
+        
     </a-assets>
 
     
 
 
-  <!-- <a-entity id="linklogo" template="src: #" layout="type: line; margin: 1.5" position="1 1 -5" data-thumb="#logoucp"></a-entity> -->
-
-  
-  <!-- <a-entity color="#FAF9F8"
-                    geometry="primitive: plane; color: #ffffff; height: 1; width: auto"
-                    position="0.8 2.1 1"
-                    rotation="0 185 -1"
-                    text="width: 0; color: white;  height: 2; align: center; value: Oficina de Mercadeo"
-                    ></a-entity> -->
 
                     
-  <a-image   position="5 2.9 -1.7" rotation="0 -30 -3" src="#corredor" width="2" height="1" [routerLink]="['/corredor-principal']">
+  <a-image   position="5.8 2.9 -7.5" rotation="0 -50 -3" src="#marca-verdepeatonal" width="2" height="1" [routerLink]="['/peatonal-zonaverde']">
+  </a-image>
+
+  <a-image   position="5 2.9 -1.7" rotation="0 -50 -3" src="#marca-corredor" width="2" height="1" [routerLink]="['/corredor-principal']">
   </a-image>
   <a-image id="elementInfomercadeo"  position="4.5 3 7.5" rotation="0 185 -3" src="#infomercadeo" width="2" height="1" [routerLink]="['/mercadeo-matriculas']">
   </a-image>
@@ -92,7 +82,7 @@
 
   
   <!-- button to start visit stands  -->
-  <a [routerLink]="['/experiencia-unica']" title="entrar" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta</a>
+  <a [routerLink]="['/experiencia-unica']" title="entrar" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta académica</a>
   <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a>
 
   <!-- 360-degree image. -->
