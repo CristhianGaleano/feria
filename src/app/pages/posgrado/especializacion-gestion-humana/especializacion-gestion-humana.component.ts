@@ -16,7 +16,7 @@ export class EspecializacionGestionHumanaComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/k2wOCr4mTlc", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/919eaksFQd0", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
     ]
 
     this.listFotos = [

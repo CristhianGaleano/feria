@@ -16,7 +16,7 @@ export class MaestriaArquitecturaUrbanismoComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/t7rFnw7yQ94", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/Mv81E-CapF0", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
     ]
 
     this.listFotos = [
@@ -26,7 +26,7 @@ export class MaestriaArquitecturaUrbanismoComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Maestría en Arquitectura y Urbanismo - Expo Virtual - UCP");
+    this.titleService.setTitle("Maestría en Arquitectura y Urbanismo - Expo Virtual - UCatólica");
   }
 
   openVideos() {

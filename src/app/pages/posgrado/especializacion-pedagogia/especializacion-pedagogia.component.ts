@@ -16,7 +16,7 @@ export class EspecializacionPedagogiaComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/mHVAebwLri8", img: "https://i.ytimg.com/vi/mHVAebwLri8/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/noyYCXtR7GI", img: "https://i.ytimg.com/vi/mHVAebwLri8/hqdefault.jpg"}
     ]
     
     this.listFotos = [

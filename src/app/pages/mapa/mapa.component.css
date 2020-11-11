@@ -561,7 +561,7 @@
 }
 
 .tituloPop{
-    width: 10%;
+    width: 15%;
 }
 
 .xp{
@@ -572,7 +572,7 @@
 
 .diIndu{
     left: 14%;
-    top: 14.5%;
+    top: 8.5%;
     z-index: 3;
 }
 
@@ -585,13 +585,13 @@
 
 .psico{
     left: 21.9%;
-    top: 10.7%;
+    top: 4.7%;
     z-index: 3;
 }
 
 .arqui{
     left: 16.2%;
-    top: 27.5%;
+    top: 21.5%;
     z-index: 3;
 }
 
@@ -618,7 +618,7 @@
 
 .merca{
     left: 33%;
-    top: 18.3%;
+    top: 11.3%;
     z-index: 3;
 }
 
@@ -638,7 +638,7 @@
 
 .indust{
     left: 50.3%;
-    top: -3%;
+    top: -9%;
     z-index: 3;
 }
 

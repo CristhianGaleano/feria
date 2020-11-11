@@ -16,7 +16,7 @@ export class MaestriaEstudiosCulturalesComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/-hIxfSA0rzc", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"},
+      {iframe: "https://www.youtube.com/embed/6Cxadg_2LYc", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"},
       {iframe: "https://www.youtube.com/embed/tFd2wHnmlPg", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
     ]
 

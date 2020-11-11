@@ -16,7 +16,7 @@ export class EspecializacionEdumaticaComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/e-3n5cEV4Ww", img: "https://i.ytimg.com/vi/e-3n5cEV4Ww/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/wWf-q6P5toU", img: "https://i.ytimg.com/vi/e-3n5cEV4Ww/hqdefault.jpg"}
     ]
 
     this.listFotos = [

@@ -16,7 +16,7 @@ export class EspecializacionPsicologiaClinicaComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/Hv5IdK8xudA", img: "https://i.ytimg.com/vi/Hv5IdK8xudA/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/28tb7tT4T_0", img: "https://i.ytimg.com/vi/Hv5IdK8xudA/hqdefault.jpg"}
     ]
 
     this.listFotos = [

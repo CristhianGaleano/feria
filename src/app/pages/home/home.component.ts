@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Expo Virtual - UCP");
+    this.titleService.setTitle("Expo Virtual - UCatólica");
   }
 
   // redireccionar(){
