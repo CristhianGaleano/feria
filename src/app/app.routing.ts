@@ -6,6 +6,8 @@ import { LayoutComponent } from './layout/layout.component';
 import { XpComponent } from './layout/xp/xp.component';
 import { StandComponent } from './layout/stand/stand.component';
 
+import { CieComponent } from './pages/cie/cie.component';
+import { ZonaverdeDabarComponent } from './pages/zonaverde-dabar/zonaverde-dabar.component';
 import { CanchaComponent } from './pages/cancha/cancha.component';
 import { ZonaverdePeatonalComponent } from './pages/zonaverde-peatonal/zonaverde-peatonal.component';
 import { CorredorPrincipalComponent } from './pages/corredor-principal/corredor-principal.component';
@@ -51,7 +53,9 @@ const appRoutes: Routes = [
 
 	//path: la ruta que queremos configurar; component: compoenente asociado a la ruta
 	{path: '', component: HomeComponent},
+	{path: 'cie', component: CieComponent},
 	{path: 'cancha', component: CanchaComponent},
+	{path: 'dabar-zonaverde', component: ZonaverdeDabarComponent},
 	{path: 'peatonal-zonaverde', component: ZonaverdePeatonalComponent},
 	{path: 'corredor-principal', component: CorredorPrincipalComponent},
 	{path: 'entrada', component: EntradaComponent},

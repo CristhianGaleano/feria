@@ -16,3 +16,25 @@
     bottom: 17%;
     z-index: 5;
 }
+
+/* wrapper sitios de interés */
+.w-sites {
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-between;
+    color: #212529;
+    width: 20%;
+    bottom: 5%;
+    left: 40%;
+    /* right: 50%; */
+}
+
+.w-sites p{
+    font-weight: 800;
+    /* font-style: italic; */
+    margin: 0;
+}
+
+.w-sites a { text-decoration: underline; color: #444444; }
+
+

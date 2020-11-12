@@ -63,6 +63,7 @@ import { CieComponent } from './pages/cie/cie.component';
 import { CanchaComponent } from './pages/cancha/cancha.component';
 import { AletehiaComponent } from './pages/aletehia/aletehia.component';
 import { ZonaverdePeatonalComponent } from './pages/zonaverde-peatonal/zonaverde-peatonal.component';
+import { ZonaverdeDabarComponent } from './pages/zonaverde-dabar/zonaverde-dabar.component';
 
 
 @NgModule({
@@ -122,7 +123,8 @@ import { ZonaverdePeatonalComponent } from './pages/zonaverde-peatonal/zonaverde
     CieComponent,
     CanchaComponent,
     AletehiaComponent,
-    ZonaverdePeatonalComponent
+    ZonaverdePeatonalComponent,
+    ZonaverdeDabarComponent
   ],
   entryComponents: [CarouselVideosComponent, CarouselFotosComponent, PromoComponent, formStands],
   imports: [

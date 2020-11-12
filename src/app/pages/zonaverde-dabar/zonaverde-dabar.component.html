@@ -1,0 +1,46 @@
+
+  <a-scene>
+    <a-assets>
+        <!-- <img id="banner" src="./assets/img/home/banner.png" alt=""> -->
+        <img id="fondo" src="./assets/img/verde-dabar/dabar.jpg" alt="Universidad Católica de Pereira">        
+        <!-- <img id="pageucp" src="./assets/img/home/pageucp.png" alt="Pagos enlínea"> -->
+        
+        <!-- <img id="play" src="./assets/img/entrada/play.png" alt="Pagos"> -->
+        
+        <img id="marca-cie" src="./assets/img/verde-dabar/marca-cie.png" alt="">
+        <img id="marca-corredor-verde" src="./assets/img/cancha/marca-verdepeatonal.png" alt="">
+        
+    </a-assets>
+
+    
+
+
+
+                    
+  <a-image   position="-7 2.6 -2.5" rotation="0 100 -3" src="#marca-corredor-verde" width="2" height="1" [routerLink]="['/peatonal-zonaverde']">
+  </a-image>
+
+  <a-image   position="-2.5 4.5 10" rotation="0 140 -3" src="#marca-cie" width="2.5" height="1.5" [routerLink]="['/cie']">
+  </a-image>
+  
+  
+  <!-- button to start visit stands  -->
+  <a [routerLink]="['/experiencia-unica']" title="entrar" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta</a>
+  <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a>
+
+  <!-- 360-degree image. -->
+  <a-sky id="image-360" radius="80" src="#fondo"
+  animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
+  animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"></a-sky>
+
+  
+   <!-- 
+       The camera has a cursor component,
+       which uses the mouse as the rayOrigin,
+       so that you can click entities in the scene
+       with the mouse.
+  -->
+  <a-entity id="camera" camera="userHeight: .2" position="0 2 0" rotation="0 89 -3" look-controls cursor="rayOrigin: mouse">
+  </a-entity>
+</a-scene>
+

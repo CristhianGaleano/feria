@@ -28,7 +28,8 @@
 
   <a-image   position="5 2.9 -1.7" rotation="0 -50 -3" src="#marca-corredor" width="2" height="1" [routerLink]="['/corredor-principal']">
   </a-image>
-  <a-image id="elementInfomercadeo"  position="4.5 3 5.5" rotation="0 185 -3" src="#infomercadeo" width="2" height="1" [routerLink]="['/mercadeo-matriculas']">
+
+  <a-image id="elementInfomercadeo"  position="4.5 3 7.9" rotation="0 185 -3" src="#infomercadeo" width="2" height="1" [routerLink]="['/mercadeo-matriculas']">
   </a-image>
 
   <a-image position="0 4.8 10" rotation="0 180 -4.9" src="#biblioteca" width="4" height="2.4" navigate-on-click="url: https://biblioteca.ucp.edu.co/" >
@@ -71,6 +72,13 @@
   <!-- button to start visit stands  -->
   <a [routerLink]="['/experiencia-unica']" title="entrar" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta académica</a>
   <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a>
+
+
+  <div class="w-sites position">
+    <p>Sitios de interés:</p>
+    <a [routerLink]="['/cie']">CIE</a>
+    <a href="https://roundme.com/tour/296369/view/1604762/" target="_blank">Biblioteca</a>
+  </div>
 
   <!-- 360-degree image. -->
   <a-sky id="image-360" radius="80" src="#fondoucp"
