@@ -20,7 +20,7 @@ export class EpecializacionGestionConstruccionSostenibleComponent implements OnI
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 2.png"}
+      {url: "./assets/img/posgrado/epecializacion-gestion-construccion-sostenible/galeria/foto 1.png"}
     ]
   }
 

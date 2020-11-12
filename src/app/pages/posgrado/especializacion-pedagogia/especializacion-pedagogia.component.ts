@@ -20,12 +20,12 @@ export class EspecializacionPedagogiaComponent implements OnInit {
     ]
     
     this.listFotos = [
-      {url: "./assets/img/pregrado/comunicacion-social-periodismo/galeria/foto 2.png"}
+      {url: "./assets/img/posgrado/especializacion-pedagogia/galeria/foto 2.png"}
     ]
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Especialización en Pedagogía y Desarrollo Humano - Expo Virtual - UCP");
+    this.titleService.setTitle("Especialización en Pedagogía y Desarrollo Humano - Expo Virtual - UCatólica");
   }
 
   openVideos() {

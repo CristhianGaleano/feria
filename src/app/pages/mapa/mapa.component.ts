@@ -28,7 +28,7 @@ export class MapaComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Mapa Expo Virtual - UCP");
+    this.titleService.setTitle("Mapa Expo Virtual - UCatólica");
   }
 
   facultad(pop: string, estado: boolean, id: string = null){

@@ -37,7 +37,7 @@ export class ExpUnicaComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Experiencia Única - Expo Virtual - UCP");
+    this.titleService.setTitle("Experiencia Única - Expo Virtual - UCatólica");
   }
 
   openVideos() {

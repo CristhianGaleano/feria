@@ -1,0 +1,52 @@
+
+  <a-scene>
+    <a-assets>
+        <!-- <img id="banner" src="./assets/img/home/banner.png" alt=""> -->
+        <img id="fondo" src="./assets/img/cie-principal/cie3.jpg" alt="Universidad Católica de Pereira">        
+        <!-- <img id="pageucp" src="./assets/img/home/pageucp.png" alt="Pagos enlínea"> -->
+        
+        <!-- <img id="play" src="./assets/img/entrada/play.png" alt="Pagos"> -->
+        
+        <img id="marca-cie-social" src="./assets/img/cie-principal/marcador-zonasocial.png" alt="">
+        <img id="marca-corredor-verde" src="./assets/img/cancha/marca-verdepeatonal.png" alt="">
+        
+    </a-assets>
+
+    
+
+
+  <!-- button to start visit stands  -->
+  <a [routerLink]="['/experiencia-unica']" title="entrar" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta</a>
+  <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="./assets/img/general/controls.png" alt=""></a>
+
+
+                    
+<!--   
+
+  <a-image   position="-6 1.5 -2.5" rotation="0 100 -3" src="#marca-corredor-verde" width="2" height="1" [routerLink]="['/peatonal-zonaverde']">
+  </a-image> -->
+
+  <a-image   position="-1 2 8.9" rotation="-1 200 -3" src="#marca-cie-social" width="4.5" height="2" [routerLink]="['/cie']">
+  </a-image>
+  
+  
+  <!-- button to start visit stands  -->
+  <a [routerLink]="['/experiencia-unica']" title="Consultar la oferta académica aquí" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta</a>
+  <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a>
+
+  <!-- 360-degree image. -->
+  <a-sky id="image-360" radius="80" src="#fondo"
+  animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
+  animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"></a-sky>
+
+  
+   <!-- 
+       The camera has a cursor component,
+       which uses the mouse as the rayOrigin,
+       so that you can click entities in the scene
+       with the mouse.
+  -->
+  <a-entity id="camera" camera="userHeight: .2" position="0 2 0" rotation="0 89 -3" look-controls cursor="rayOrigin: mouse">
+  </a-entity>
+</a-scene>
+

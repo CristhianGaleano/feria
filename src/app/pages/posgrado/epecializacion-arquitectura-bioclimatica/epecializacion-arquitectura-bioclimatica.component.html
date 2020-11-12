@@ -5,7 +5,11 @@
       <a [routerLink]="['/mapa-expo']" title="Volver a la oferta académica" class="homeStand absoluto" >
         <img src="./assets/img/general/home.png" class="box-animated img-fluid" alt="home expo virtual ucp">
       </a>
-      <img src="./assets/img/general/play.png" class="play absoluto" alt="play expo virtual ucp" id="play">
+
+      <div class="playgif">
+        <img src="./assets/img/general/tv.png" class="animate__animated animate__pulse animate__infinite" alt="Universidad Católica de Pereira" id="logosvg">
+      </div>
+
       <a (click)="openVideos()" title="Videos" class="video absoluto" style="cursor: pointer;" (mouseenter)="play(true)" (mouseleave)="play(false)"></a>
       <a (click)="openGaleria()" title="Galeria" class="fotosStand absoluto box-animated" style="cursor: pointer;">
         <span class="icon-photo-5"></span>

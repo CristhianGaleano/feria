@@ -20,21 +20,21 @@ export class DisenoAudiovisualComponent implements OnInit {
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 2.png"},
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 1.png"},
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 3.png"},
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 4.png"},
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 5.png"},
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 6.png"},
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 7.png"},
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 8.png"},
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 9.png"},
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 10.png"}
+      {url: "./assets/img/pregrado/diseno-audiovisual/galeria/foto 1.png"},
+      // {url: "./assets/img/pregrado/psicologia/galeria/foto 2.png"},
+      // {url: "./assets/img/pregrado/psicologia/galeria/foto 3.png"},
+      // {url: "./assets/img/pregrado/psicologia/galeria/foto 4.png"},
+      // {url: "./assets/img/pregrado/psicologia/galeria/foto 5.png"},
+      // {url: "./assets/img/pregrado/psicologia/galeria/foto 6.png"},
+      // {url: "./assets/img/pregrado/psicologia/galeria/foto 7.png"},
+      // {url: "./assets/img/pregrado/psicologia/galeria/foto 8.png"},
+      // {url: "./assets/img/pregrado/psicologia/galeria/foto 9.png"},
+      // {url: "./assets/img/pregrado/psicologia/galeria/foto 10.png"}
     ]
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Técnica Profesional en Video, Disc-jockey y Sonido - Expo Virtual - UCP");
+    this.titleService.setTitle("Técnica Profesional en Video, Disc-jockey y Sonido - Expo Virtual - UCatólica");
   }
 
   openVideos() {

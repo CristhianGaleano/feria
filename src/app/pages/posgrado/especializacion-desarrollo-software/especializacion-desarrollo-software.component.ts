@@ -20,12 +20,12 @@ export class EspecializacionDesarrolloSoftwareComponent implements OnInit {
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 2.png"}
+      {url: "./assets/img/posgrado/especializacion-desarrollo-software/galeria/foto 1.png"}
     ]
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Especialización en Arquitectura Bioclimática - Expo Virtual - UCP");
+    this.titleService.setTitle("Especialización en Arquitectura Bioclimática - Expo Virtual - UCatólica");
   }
 
   openVideos() {

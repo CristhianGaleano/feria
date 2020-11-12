@@ -28,7 +28,7 @@ export class AdministracionEmpresaComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Administración de Empresa - Expo Virtual - UCP");
+    this.titleService.setTitle("Administración de Empresa - Expo Virtual - UCatólica");
   }
 
   openVideos() {

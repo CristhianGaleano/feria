@@ -34,7 +34,7 @@ export class TecDesarrolloSoftwareComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Tecnología en Desarrollo de Software - Expo Virtual - UCP");
+    this.titleService.setTitle("Tecnología en Desarrollo de Software - Expo Virtual - UCatólica");
   }
 
   openVideos() {

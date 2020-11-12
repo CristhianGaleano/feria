@@ -34,6 +34,7 @@ export class MenuStandComponent implements OnInit {
   selector: "form",
   templateUrl: "form.html"
 })
+
 export class formStands {
   constructor(
     public dialogRef: MatDialogRef<formStands>,

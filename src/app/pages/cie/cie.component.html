@@ -9,6 +9,7 @@
         
         <img id="marca-cie" src="./assets/img/verde-dabar/marca-cie.png" alt="">
         <img id="marca-corredor-verde" src="./assets/img/cancha/marca-verdepeatonal.png" alt="">
+        <img id="marca-corredor-verde-dabar" src="./assets/img/cie/corredor-medio-dabar.png" alt="">
         
     </a-assets>
 
@@ -16,17 +17,20 @@
 
 
 
-                    
+<!--                     
   <a-image   position="-6 1.5 -2.5" rotation="0 100 -3" src="#marca-corredor-verde" width="2" height="1" [routerLink]="['/peatonal-zonaverde']">
+  </a-image> -->
+
+  <a-image   position="-6 1.3 -5.5" rotation="0 100 -3" src="#marca-corredor-verde-dabar" width="2" height="1" [routerLink]="['/dabar-zonaverde']">
   </a-image>
 
-  <a-image   position="-5.2 1.6 3.4" rotation="0 100 -3" src="#marca-cie" width="2" height="1" [routerLink]="['/cie']">
+  <a-image   position="-5.2 1.6 3.4" rotation="0 100 -3" src="#marca-cie" width="2" height="1" [routerLink]="['/cie-principal']">
   </a-image>
   
   
   <!-- button to start visit stands  -->
   <a [routerLink]="['/experiencia-unica']" title="entrar" class="position btnoferta-ubicacion btn btn-warning px-3">Conoce nuestra oferta</a>
-  <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="../../../assets/img/general/controls.png" alt=""></a>
+  <a class="position ctrl-ubicacion absolute px-3"  alt=""><img style="display: block;" src="./assets/img/general/controls.png" alt=""></a>
 
   <!-- 360-degree image. -->
   <a-sky id="image-360" radius="80" src="#fondo"

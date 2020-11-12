@@ -20,7 +20,7 @@ export class MaestriaArquitecturaUrbanismoComponent implements OnInit {
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/psicologia/galeria/foto 2.png"},
+      {url: "./assets/img/posgrado/maestria-arquitectura-urbanismo/galeria/foto 1.png"},
       
     ]
   }

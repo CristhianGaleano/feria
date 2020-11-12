@@ -1,0 +1,17 @@
+.position {
+    position: absolute;
+    display: block;
+    
+
+}
+
+.ctrl-ubicacion {
+    bottom: 10%;
+    left: 0;
+    z-index: 5;
+}
+.btnoferta-ubicacion {
+    right: 1%;
+    bottom: 17%;
+    z-index: 5;
+}

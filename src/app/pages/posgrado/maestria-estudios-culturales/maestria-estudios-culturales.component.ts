@@ -29,7 +29,7 @@ export class MaestriaEstudiosCulturalesComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Maestría en Estudios Culturales - Expo Virtual - UCP");
+    this.titleService.setTitle("Maestría en Estudios Culturales - Expo Virtual - UCatólica");
   }
 
   openVideos() {
