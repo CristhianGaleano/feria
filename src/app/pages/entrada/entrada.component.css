@@ -6,6 +6,13 @@
 
 }
 
+.autor {
+    bottom: 1%;
+    left: 1%;
+    font-size: 1rem;
+    color: #57595b;
+}
+
 .ctrl-ubicacion {
     bottom: 10%;
     left: 0;
