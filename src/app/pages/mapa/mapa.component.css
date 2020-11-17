@@ -173,8 +173,8 @@ img.tituloPop {
 }
 
 .espArqui{
-    left: 17%;
-    bottom: 26%;
+    left: 10%;
+    bottom: 21%;
     width: 9.5%;
     height: 16%;
     border-top-right-radius: 40%;
@@ -189,8 +189,8 @@ img.tituloPop {
 
 /* a */
 .espPDH{
-    left: 36%;
-    bottom: 38%;
+    left: 28%;
+    bottom: 31%;
     width: 9.5%;
     height: 16%;
     border-top-right-radius: 40%;
@@ -202,8 +202,8 @@ img.tituloPop {
 
 /* img */
 .espePDH{
-    left: 40%;
-    bottom: 46%;
+    left: 32%;
+    bottom: 41%;
     z-index: 3;
     width: 15%;
 }
@@ -212,8 +212,8 @@ img.tituloPop {
 
 /* a */
 .espABC{
-    left: 27%;
-    bottom: 32%;
+    left: 20%;
+    bottom: 26%;
     width: 9.5%;
     height: 16%;
     border-top-right-radius: 40%;
@@ -225,8 +225,8 @@ img.tituloPop {
 
 /* img */
 .espeABC{
-    left: 31%;
-    bottom: 41%;
+    left: 23%;
+    bottom: 36%;
     z-index: 3;
     width: 15%;
 }
@@ -257,10 +257,10 @@ img.tituloPop {
 
 /* a */
 .maeMET{
-    left: 44%;
-    bottom: 41%;
+    left: 36%;
+    bottom: 37%;
     width: 9.5%;
-    height: 16%;
+    height: 12%;
     border-top-right-radius: 40%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 55%;
@@ -270,8 +270,8 @@ img.tituloPop {
 
 /* img */
 .maesMET{
-    left: 48%;
-    bottom: 51%;
+    left: 40%;
+    bottom: 46%;
     z-index: 3;
     width: 15%;
 }
@@ -279,10 +279,10 @@ img.tituloPop {
 
 /* a */
 .maeEC{
-    left: 52%;
-    bottom: 47%;
-    width: 9.5%;
-    height: 16%;
+    left: 45%;
+    bottom: 45%;
+    width: 8.5%;
+    height: 10%;
     border-top-right-radius: 40%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 55%;
@@ -292,8 +292,8 @@ img.tituloPop {
 
 /* img */
 .maesEC{
-    left: 56%;
-    bottom: 55%;
+    left: 48%;
+    bottom: 51%;
     z-index: 3;
     width: 15%;
 }
@@ -301,10 +301,10 @@ img.tituloPop {
 
 /* a */
 .espEdu{
-    left: 60%;
-    bottom: 51%;
-    width: 9.5%;
-    height: 16%;
+    left: 53%;
+    bottom: 50%;
+    width: 8.5%;
+    height: 10%;
     border-top-right-radius: 40%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 55%;
@@ -314,8 +314,8 @@ img.tituloPop {
 
 /* img */
 .espeEdu{
-    left: 64%;
-    bottom: 59%;
+    left: 56%;
+    bottom: 55%;
     z-index: 3;
     width: 15%;
 }
@@ -411,10 +411,10 @@ img.tituloPop {
 
 /* a */
 .espDS{
-    left: 80%;
-    bottom: 62%;
-    width: 9.5%;
-    height: 16%;
+    left: 88%;
+    bottom: 71%;
+    width: 8.5%;
+    height: 9%;
     border-top-right-radius: 40%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 55%;
@@ -424,8 +424,8 @@ img.tituloPop {
 
 /* img */
 .espeDS{
-    left: 85%;
-    bottom: 71%;
+    left: 90.5%;
+    bottom: 76%;
     z-index: 3;
     width: 15%;
 }
@@ -433,10 +433,10 @@ img.tituloPop {
 
 /* a */
 .maeFI{
-    left: 67%;
+    left: 60%;
     bottom: 55%;
-    width: 9.5%;
-    height: 16%;
+    width: 8.5%;
+    height: 10%;
     border-top-right-radius: 40%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 55%;
@@ -446,8 +446,8 @@ img.tituloPop {
 
 /* img */
 .maesFI{
-    left: 71%;
-    bottom: 64%;
+    left: 64%;
+    bottom: 60%;
     z-index: 3;
     width: 15%;
 }
@@ -662,8 +662,8 @@ img.tituloPop {
 }
 
 .arquiEsp{
-    left: 21%;
-    bottom: 35%;
+    left: 13%;
+    bottom: 30%;
     z-index: 3;
     width: 15%;
 }
