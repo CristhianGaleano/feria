@@ -38,8 +38,11 @@ import { EspecializacionPsicologiaClinicaComponent } from './pages/posgrado/espe
 import { EspecializacionPsicologiaPsicosocialComponent } from './pages/posgrado/especializacion-psicologia-psicosocial/especializacion-psicologia-psicosocial.component';
 import { EspecializacionGestionHumanaComponent } from './pages/posgrado/especializacion-gestion-humana/especializacion-gestion-humana.component';
 import { MaestriaArquitecturaUrbanismoComponent } from './pages/posgrado/maestria-arquitectura-urbanismo/maestria-arquitectura-urbanismo.component';
+import { MaestriaGestionRegionalComponent } from './pages/posgrado/maestria-gestion-regional/maestria-gestion-regional.component';
 import { MaestriaInnovacionComponent } from './pages/posgrado/maestria-innovacion/maestria-innovacion.component';
+import { MaestriaGestionProyectosComponent } from './pages/posgrado/maestria-gestion-proyectos/maestria-gestion-proyectos.component';
 import { MaestriaFinanzasComponent } from './pages/posgrado/maestria-finanzas/maestria-finanzas.component';
+import { EspecializacionEcoPublicaComponent } from './pages/posgrado/especializacion-eco-publica/especializacion-eco-publica.component';
 import { EspecializacionCiberasesoriaFinancieraComponent } from './pages/posgrado/especializacion-ciberasesoria-financiera/especializacion-ciberasesoria-financiera.component';
 import { EspecializacionFinanzasComponent } from './pages/posgrado/especializacion-finanzas/especializacion-finanzas.component';
 import { MaestriaEstudiosCulturalesComponent } from './pages/posgrado/maestria-estudios-culturales/maestria-estudios-culturales.component';
@@ -95,7 +98,7 @@ const appRoutes: Routes = [
 			{path: 'pregrado/negocios-internacionales', component: NegociosInternacionalesComponent},
 			{path: 'pregrado/ingenieria-industrial', component: IngIndustrialComponent},
 			{path: 'pregrado/ingenieria-sistemas-telecomunicaciones', component: IngSistemasComponent},
-			//{path: 'posgrado/doctorado-educacion', component: DoctoradoEducacionComponent},
+			{path: 'posgrado/doctorado-educacion', component: DoctoradoEducacionComponent},
 			{path: 'posgrado/especializacion-pedagogia', component: EspecializacionPedagogiaComponent},
 			{path: 'posgrado/especializacion-edumatica', component: EspecializacionEdumaticaComponent},
 			{path: 'posgrado/especializacion-psicologia-clinica', component: EspecializacionPsicologiaClinicaComponent},
@@ -105,6 +108,9 @@ const appRoutes: Routes = [
 			{path: 'posgrado/maestria-arquitectura-urbanismo', component: MaestriaArquitecturaUrbanismoComponent},
 			{path: 'posgrado/maestria-innovacion', component: MaestriaInnovacionComponent},
 			{path: 'posgrado/maestria-finanzas', component: MaestriaFinanzasComponent},
+			{path: 'posgrado/maestria-regional', component: MaestriaGestionRegionalComponent},
+			{path: 'posgrado/maestria-proyectos', component: MaestriaGestionProyectosComponent},
+			{path: 'posgrado/especializacion-eco-publica', component: EspecializacionEcoPublicaComponent},
 			{path: 'posgrado/especializacion-ciberasesoria-financiera', component: EspecializacionCiberasesoriaFinancieraComponent},
 			{path: 'posgrado/especializacion-finanzas', component: EspecializacionFinanzasComponent},
 			{path: 'posgrado/maestria-estudios-culturales', component:MaestriaEstudiosCulturalesComponent},

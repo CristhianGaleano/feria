@@ -5,18 +5,18 @@ import { CarouselVideosComponent } from '../../../sections/carousel-videos/carou
 import { CarouselFotosComponent } from '../../../sections/carousel-fotos/carousel-fotos.component';
 
 @Component({
-  selector: 'app-doctorado-educacion',
-  templateUrl: './doctorado-educacion.component.html',
-  styleUrls: ['./doctorado-educacion.component.css']
+  selector: 'app-maestria-gestion-regional',
+  templateUrl: './maestria-gestion-regional.component.html',
+  styleUrls: ['./maestria-gestion-regional.component.css']
 })
-export class DoctoradoEducacionComponent implements OnInit {
+export class MaestriaGestionRegionalComponent implements OnInit {
 
   public listVideos: any[];
   public listFotos: any[];
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/v6RB-jabufw", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/LoQGtOkDous", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
     ]
 
     this.listFotos = [
@@ -28,7 +28,7 @@ export class DoctoradoEducacionComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Doctorado en Educación y Desarrollo Humano - Expo Virtual - UCatólica");
+    this.titleService.setTitle("Maestría en Finanzas - Expo Virtual - UCP");
   }
 
   openVideos() {

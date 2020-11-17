@@ -65,6 +65,9 @@ import { AletehiaComponent } from './pages/aletehia/aletehia.component';
 import { ZonaverdePeatonalComponent } from './pages/zonaverde-peatonal/zonaverde-peatonal.component';
 import { ZonaverdeDabarComponent } from './pages/zonaverde-dabar/zonaverde-dabar.component';
 import { CiePrincipalComponent } from './pages/cie-principal/cie-principal.component';
+import { EspecializacionEcoPublicaComponent } from './pages/posgrado/especializacion-eco-publica/especializacion-eco-publica.component';
+import { MaestriaGestionRegionalComponent } from './pages/posgrado/maestria-gestion-regional/maestria-gestion-regional.component';
+import { MaestriaGestionProyectosComponent } from './pages/posgrado/maestria-gestion-proyectos/maestria-gestion-proyectos.component';
 
 
 @NgModule({
@@ -126,7 +129,10 @@ import { CiePrincipalComponent } from './pages/cie-principal/cie-principal.compo
     AletehiaComponent,
     ZonaverdePeatonalComponent,
     ZonaverdeDabarComponent,
-    CiePrincipalComponent
+    CiePrincipalComponent,
+    EspecializacionEcoPublicaComponent,
+    MaestriaGestionRegionalComponent,
+    MaestriaGestionProyectosComponent
   ],
   entryComponents: [CarouselVideosComponent, CarouselFotosComponent, PromoComponent, formStands],
   imports: [

@@ -519,6 +519,96 @@ img.tituloPop {
 }
 
 
+/* a */
+.maeGDR{
+    left: 89%;
+    bottom: 55%;
+    width: 8.5%;
+    height: 10%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+/* img */
+.maesGDR{
+    left: 93%;
+    bottom: 60%;
+    z-index: 3;
+    width: 15%;
+}
+
+
+/* a */
+.espEPGT{
+    left: 82%;
+    bottom: 67%;
+    width: 7%;
+    height: 10%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+/* img */
+.espeEPGT{
+    left: 84%;
+    bottom: 72%;
+    z-index: 3;
+    width: 15%;
+}
+
+
+
+
+/* a */
+.maeGP{
+    left: 67%;
+    bottom: 58%;
+    width: 9%;
+    height: 10%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+/* img */
+.maesGP{
+    left: 71%;
+    bottom: 64%;
+    z-index: 3;
+    width: 15%;
+}
+
+
+/* a */
+.docEDH{
+    left: 67%;
+    bottom: 41%;
+    width: 8%;
+    height: 10%;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 55%;
+    border-top-left-radius: 60%;
+    z-index: 4;
+}
+
+/* img */
+.doctEDH{
+    left: 70%;
+    bottom: 46%;
+    z-index: 3;
+    width: 15%;
+}
+
+
 
 
 
