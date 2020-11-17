@@ -16,19 +16,19 @@ export class EspecializacionEcoPublicaComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/LoQGtOkDous", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
+      {iframe: "https://www.youtube.com/embed/aYJWUPDa0cU", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 2.png"},
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 1.png"},
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 3.png"},
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 4.png"}
+      {url: "./assets/img/posgrado/especializaion-eco-publica/galeria/foto 1.png"},
+      // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 2.png"},
+      // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 3.png"},
+      // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 4.png"}
     ]
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Maestría en Finanzas - Expo Virtual - UCatólica");
+    this.titleService.setTitle("Especialización en Economía Pública y Gestión Territorial  - Expo Virtual - UCatólica");
   }
 
   openVideos() {
