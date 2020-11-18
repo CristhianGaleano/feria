@@ -20,15 +20,15 @@ export class MaestriaPedagogiaYDesarrolloHumanoComponent implements OnInit {
     ]
 
     this.listFotos = [
-      {url: "./assets/img/posgrados/maestria-pedagogia-y-desarrollo-humano/galeria/foto 2.png"},
-      {url: "./assets/img/posgrados/maestria-pedagogia-y-desarrollo-humano/galeria/foto 1.png"},
-      {url: "./assets/img/posgrados/maestria-pedagogia-y-desarrollo-humano/galeria/foto 3.png"},
-      {url: "./assets/img/posgrados/maestria-pedagogia-y-desarrollo-humano/galeria/foto 4.png"}
+      {url: "./assets/img/posgrado/maestria-pedagogia-y-desarrollo-humano/galeria/foto 1.png"},
+      // {url: "./assets/img/posgrados/maestria-pedagogia-y-desarrollo-humano/galeria/foto 2.png"},
+      // {url: "./assets/img/posgrados/maestria-pedagogia-y-desarrollo-humano/galeria/foto 3.png"},
+      // {url: "./assets/img/posgrados/maestria-pedagogia-y-desarrollo-humano/galeria/foto 4.png"}
     ]
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Maestría en Pedagogía y Desarrollo Humano - Expo Virtual - UCP");
+    this.titleService.setTitle("Maestría en Pedagogía y Desarrollo Humano - Expo Virtual - UCatólica");
   }
 
   openVideos() {

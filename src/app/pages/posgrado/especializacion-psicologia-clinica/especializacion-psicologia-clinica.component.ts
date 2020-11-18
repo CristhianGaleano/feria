@@ -20,12 +20,12 @@ export class EspecializacionPsicologiaClinicaComponent implements OnInit {
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/comunicacion-social-periodismo/galeria/foto 2.png"}
+      {url: "./assets/img/posgrado/especializacion-psicologia-clinica/galeria/foto 1.png"}
     ]
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Especialización en Psicología Clínica con énfasis en Psicoterapia con niños y adolescentes - Expo Virtual - UCP");
+    this.titleService.setTitle("Especialización en Psicología Clínica con Énfasis en Psicoterapia con Niños y Adolescentes - Expo Virtual - UCatólica");
   }
 
   openVideos() {

@@ -20,7 +20,7 @@ export class EspecializacionEcoPublicaComponent implements OnInit {
     ]
 
     this.listFotos = [
-      {url: "./assets/img/posgrado/especializaion-eco-publica/galeria/foto 1.png"},
+      {url: "./assets/img/posgrado/especializacion-eco-publica/galeria/foto 1.png"},
       // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 2.png"},
       // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 3.png"},
       // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 4.png"}

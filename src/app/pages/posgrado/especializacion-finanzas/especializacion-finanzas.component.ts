@@ -18,16 +18,16 @@ export class EspecializacionFinanzasComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/tk7TgtnuLX8", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
+      {iframe: "", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 2.png"}
+      {url: "./assets/img/posgrado/especializacion-finanzas/galeria/foto 1.png"}
     ]
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Especialización en Finanzas - Expo Virtual - UCP");
+    this.titleService.setTitle("Especialización en Finanzas - Expo Virtual - UCatólica");
   }
 
   openVideos() {
