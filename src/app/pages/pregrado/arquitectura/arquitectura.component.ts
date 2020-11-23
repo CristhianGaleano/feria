@@ -27,7 +27,7 @@ export class ArquitecturaComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Arquitectura - Expo Virtual - UCP");
+    this.titleService.setTitle("Arquitectura - Expo Virtual - UCatólica");
   }
 
   openVideos() {

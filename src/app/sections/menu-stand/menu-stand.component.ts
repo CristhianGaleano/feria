@@ -28,12 +28,22 @@ export class MenuStandComponent implements OnInit {
     this.dialog.open(formStands, {width: '80%', height: '80%' });
   }
 
+  openFormPos(){
+    this.dialog.open(formStands, {width: '80%', height: '80%' });
+  }
+
 }
 
 @Component({
   selector: "form",
   templateUrl: "form.html"
-})
+}
+)
+@Component({
+  selector: "formpos",
+  templateUrl: "formpos.html"
+}
+)
 
 export class formStands {
   constructor(
