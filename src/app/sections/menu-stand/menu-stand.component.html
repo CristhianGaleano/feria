@@ -22,16 +22,16 @@
         Financiación
       </a>
     </li> -->
-    <li class="box-animated">
+    <li id="li-pre" class="box-animated">
       <a (click)="openForm()" style="cursor: pointer;">
-        <span class="icon-write-1"></span><br>Solicitar información
+        <span class="icon-write-1"></span><br>Solicitar información Pregrado
       </a>
     </li>
-    <li class="box-animated">
-      <a (click)="openFormPos()" style="cursor: pointer;">
-        <span class="icon-write-1"></span><br>Solicitar información
+    <!-- <li id="li-pos" class="box-animated">
+      <a (click)="openForm()" style="cursor: pointer;">
+        <span class="icon-write-1"></span><br>Solicitar información Posgrado
       </a>
-    </li>
+    </li> -->
     <li class="box-animated">
       <a href="https://portal.icetex.gov.co/Portal/" target="_blank" rel="noopener noreferrer">
         <img src="./assets/img/exp-unica/icetex.png" class="img-fluid" alt="redes expo virtual ucp">
@@ -39,3 +39,16 @@
     </li>
   </ul>
 </section>
+
+<div class="container h-100" id="w-form">
+  <div class="row h-100">
+    <div class="col-12">
+      <iframe id="pre"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSd1nKSCNlUBO6D2UZREgeHiZVJfQmiRwWxUqPYHiUglfIl1Xw/viewform?embedded=true"
+        width="100%" height="1350" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+      <iframe id="pos"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfCCL4-lLDHIBfAdws_xR3pzXyJh-piQePQgaAqc7Mb5O13fA/viewform?embedded=true"
+        width="100%" height="1350" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    </div>
+  </div>
+</div>

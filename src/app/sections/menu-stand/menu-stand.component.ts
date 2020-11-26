@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialog, MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { PromoComponent } from '../promo/promo.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu-stand',
@@ -8,11 +9,29 @@ import { PromoComponent } from '../promo/promo.component';
   styleUrls: ['./menu-stand.component.css']
 })
 export class MenuStandComponent implements OnInit {
+  public href: string = "";
+        url: string = "asdf";
 
-  constructor(public dialog: MatDialog) {
+
+  constructor(public dialog: MatDialog, public dialogRef: MatDialogRef<formStands>,
+    @Inject(MAT_DIALOG_DATA) public data: any,private router : Router) {
+    // let liformpos = document.getElementById("li-pos");
+    // let liformpre = document.getElementById("li-pre");
+    // console.log(liformpos)
+    // var modo = this.router.url.split('/');
+    // console.log(modo)
+    // if( modo[1] == 'pregrado' ){
+    //   liformpre.style.display = "none";
+    // }
+    // else{
+    //   liformpos.style.display = "none";
+      
+    // }
   }
-
+  
   ngOnInit() {
+    this.href = this.router.url;
+    console.log(this.router.url);
   }
 
   openPromo(img: string) {
@@ -25,11 +44,16 @@ export class MenuStandComponent implements OnInit {
   }
 
   openForm(){
-    this.dialog.open(formStands, {width: '80%', height: '80%' });
-  }
-
-  openFormPos(){
-    this.dialog.open(formStands, {width: '80%', height: '80%' });
+    var modo = this.router.url.split('/');
+    let formpos = document.getElementById("pos");
+    let formpre = document.getElementById("pre");
+    if( modo[1] == 'pregrado' ){
+      formpos.style.display = "none";
+    }
+    else{
+      formpre.style.display = "none";
+    }
+    this.dialog.open(MenuStandComponent, {width: '80%', height: '80%' });
   }
 
 }
@@ -51,3 +75,4 @@ export class formStands {
     @Inject(MAT_DIALOG_DATA) public data: any
   ) {}
 }
+
