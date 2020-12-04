@@ -13,27 +13,18 @@ export class MenuStandComponent implements OnInit {
         url: string = "asdf";
 
 
-  constructor(public dialog: MatDialog, public dialogRef: MatDialogRef<formStands>,
-    @Inject(MAT_DIALOG_DATA) public data: any,private router : Router) {
+  constructor(public dialog: MatDialog, private router : Router) {
     // let liformpos = document.getElementById("li-pos");
     // let liformpre = document.getElementById("li-pre");
     // console.log(liformpos)
-    // var modo = this.router.url.split('/');
-    // console.log(modo)
-    // if( modo[1] == 'pregrado' ){
-    //   liformpre.style.display = "none";
-    // }
-    // else{
-    //   liformpos.style.display = "none";
-      
-    // }
+    
   }
   
   ngOnInit() {
     this.href = this.router.url;
     console.log(this.router.url);
   }
-
+  
   openPromo(img: string) {
     console.log(img);
     if(img === 'plan'){
@@ -42,18 +33,18 @@ export class MenuStandComponent implements OnInit {
     }
     this.dialog.open(PromoComponent, {data: { imagen: img}, height:"90%", id: 'mat-dialog-12363'});
   }
-
+  
   openForm(){
-    var modo = this.router.url.split('/');
-    let formpos = document.getElementById("pos");
-    let formpre = document.getElementById("pre");
+    let modo = this.router.url.split('/');
+    console.log(modo)
     if( modo[1] == 'pregrado' ){
-      formpos.style.display = "none";
+      this.dialog.open(formStands, {width: '80%', height: '80%' });
     }
     else{
-      formpre.style.display = "none";
+      this.dialog.open(formPosStands, {width: '80%', height: '80%' });
     }
-    this.dialog.open(MenuStandComponent, {width: '80%', height: '80%' });
+    
+    
   }
 
 }
@@ -63,11 +54,6 @@ export class MenuStandComponent implements OnInit {
   templateUrl: "form.html"
 }
 )
-@Component({
-  selector: "formpos",
-  templateUrl: "formpos.html"
-}
-)
 
 export class formStands {
   constructor(
@@ -75,4 +61,17 @@ export class formStands {
     @Inject(MAT_DIALOG_DATA) public data: any
   ) {}
 }
+
+@Component({
+  selector: "formpos",
+  templateUrl: "formpos.html"
+}
+)
+export class formPosStands {
+  constructor(
+    public dialogRef: MatDialogRef<formPosStands>,
+    @Inject(MAT_DIALOG_DATA) public data: any
+  ) {}
+}
+
 

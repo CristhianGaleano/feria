@@ -26,7 +26,7 @@ import { XpComponent } from './layout/xp/xp.component';
 import { MenuDosComponent } from './sections/menu-dos/menu-dos.component';
 import { PromoComponent } from './sections/promo/promo.component';
 import { StandComponent } from './layout/stand/stand.component';
-import { MenuStandComponent, formStands } from './sections/menu-stand/menu-stand.component';
+import { MenuStandComponent, formStands,formPosStands } from './sections/menu-stand/menu-stand.component';
 import { ArquitecturaComponent } from './pages/pregrado/arquitectura/arquitectura.component';
 import { ComunicacionSocialComponent } from './pages/pregrado/comunicacion-social/comunicacion-social.component';
 import { AdministracionEmpresaComponent } from './pages/pregrado/administracion-empresa/administracion-empresa.component';
@@ -92,6 +92,7 @@ import { MaestriaGestionProyectosComponent } from './pages/posgrado/maestria-ges
     StandComponent,
     MenuStandComponent,
     formStands,
+    formPosStands,
     ArquitecturaComponent,
     ComunicacionSocialComponent,
     AdministracionEmpresaComponent,
@@ -134,7 +135,7 @@ import { MaestriaGestionProyectosComponent } from './pages/posgrado/maestria-ges
     MaestriaGestionRegionalComponent,
     MaestriaGestionProyectosComponent
   ],
-  entryComponents: [CarouselVideosComponent, CarouselFotosComponent, PromoComponent, formStands],
+  entryComponents: [CarouselVideosComponent, CarouselFotosComponent, PromoComponent, formStands, formPosStands],
   imports: [
     BrowserModule,
     routing,
