@@ -20,12 +20,12 @@ export class MaestriaInnovacionComponent implements OnInit {
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 2.png"},
+      {url: "./assets/img/posgrado/maestria-innovacion/galeria/foto 1.png"},
     ]
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Maestría en Innovación - Expo Virtual - UCP");
+    this.titleService.setTitle("Maestría en Innovación - Expo Virtual - UCatólica");
   }
 
   openVideos() {

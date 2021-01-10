@@ -20,7 +20,7 @@ export class MaestriaGestionRegionalComponent implements OnInit {
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 1.png"},
+      {url: "./assets/img/posgrado/maestria-regional/galeria/foto 1.png"},
       // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 2.png"},
       // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 3.png"},
       // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 4.png"}
@@ -28,7 +28,7 @@ export class MaestriaGestionRegionalComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.titleService.setTitle("Maestría en Gestión del Desarrollo Regional - Expo Virtual - UCP");
+    this.titleService.setTitle("Maestría en Gestión del Desarrollo Regional - Expo Virtual - UCatólica");
   }
 
   openVideos() {

@@ -255,9 +255,10 @@
         alt="fondo expo virtual ucp" id="maesGDR">
 
       <!-- Especialización en Economía Pública y Gestión Territorial -->
-      <!-- [routerLink]="['/posgrado/especializacion-eco-publica']" -->
-      <a class="espEPGT absoluto" (mouseenter)="facultad('espeEPGT', false, 'arqDiseno')"
-        (mouseleave)="facultad('espeEPGT', true, 'arqDiseno')" title="Muy pronto"></a>
+
+      <a [routerLink]="['/posgrado/especializacion-eco-publica']" class="espEPGT absoluto"
+        (mouseenter)="facultad('espeEPGT', false, 'arqDiseno')" (mouseleave)="facultad('espeEPGT', true, 'arqDiseno')"
+        title="Muy pronto"></a>
       <img src="./assets/img/mapa/titulos/esp-eco-publica.png" class="tituloPop espeEPGT absoluto" [hidden]="true"
         alt="fondo expo virtual ucp" id="espeEPGT">
 

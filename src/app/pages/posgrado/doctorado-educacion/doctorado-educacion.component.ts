@@ -16,11 +16,11 @@ export class DoctoradoEducacionComponent implements OnInit {
 
   constructor(public dialog: MatDialog, private titleService: Title) {
     this.listVideos = [
-      {iframe: "https://www.youtube.com/embed/v6RB-jabufw", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
+      {iframe: "", img: "http://i3.ytimg.com/vi/v6RB-jabufw/hqdefault.jpg"}
     ]
 
     this.listFotos = [
-      {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 1.png"},
+      {url: "./assets/img/posgrado/doctorado-educacion/galeria/foto 1.png"},
       // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 2.png"},
       // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 3.png"},
       // {url: "./assets/img/pregrado/administracion-empresa/galeria/foto 4.png"}
